@@ -1,0 +1,116 @@
+{
+  "activity_id": "1731079022_zim",
+  "players": [
+    "James",
+    "Fredrik",
+    "Jian",
+    "Arjun",
+    "Emma",
+    "Klaus",
+    "Luca",
+    "Myra"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Jian": "wolf",
+    "Fredrik": "wolf",
+    "Emma": "seer",
+    "Arjun": "doctor",
+    "Klaus": "villager",
+    "Myra": "villager",
+    "James": "villager",
+    "Luca": "villager"
+  },
+  "total_rounds": 2,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Fredrik": "Emma",
+          "Jian": "James"
+        },
+        "1": {
+          "Fredrik": "Emma"
+        }
+      },
+      "doctors_save": {
+        "0": "Emma",
+        "1": "Emma"
+      },
+      "alive_players_votes": {
+        "0": {
+          "Emma": "Fredrik",
+          "Klaus": "Jian",
+          "James": "Fredrik",
+          "Luca": "Jian",
+          "Myra": "Jian",
+          "Fredrik": "Jian",
+          "Arjun": "Jian",
+          "Jian": "James"
+        },
+        "1": {
+          "Emma": "Fredrik",
+          "James": "Fredrik",
+          "Fredrik": "Arjun",
+          "Klaus": "Fredrik",
+          "Myra": "Fredrik",
+          "Luca": "Fredrik",
+          "Arjun": "Fredrik"
+        }
+      }
+    },
+    "total_rounds": 2,
+    "round_wise_alive_players": {
+      "0": [
+        "James",
+        "Fredrik",
+        "Arjun",
+        "Emma",
+        "Klaus",
+        "Luca",
+        "Myra"
+      ],
+      "1": [
+        "James",
+        "Arjun",
+        "Emma",
+        "Klaus",
+        "Luca",
+        "Myra"
+      ]
+    },
+    "last_standing_players": [
+      "James",
+      "Arjun",
+      "Emma",
+      "Klaus",
+      "Luca",
+      "Myra"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Fredrik": "transcripts/Fredrik_1731079022_zim_log.txt",
+    "Jian": "transcripts/Jian_1731079022_zim_log.txt",
+    "Arjun": "transcripts/Arjun_1731079022_zim_log.txt",
+    "Emma": "transcripts/Emma_1731079022_zim_log.txt",
+    "Klaus": "transcripts/Klaus_1731079022_zim_log.txt",
+    "Luca": "transcripts/Luca_1731079022_zim_log.txt",
+    "Myra": "transcripts/Myra_1731079022_zim_log.txt",
+    "James": "transcripts/James_1731079022_zim_log.txt"
+  },
+  "transcripts": {
+    "Fredrik": "transcripts/Fredrik_1731079022_zim_transcript.jsonl",
+    "Jian": "transcripts/Jian_1731079022_zim_transcript.jsonl",
+    "Arjun": "transcripts/Arjun_1731079022_zim_transcript.jsonl",
+    "Emma": "transcripts/Emma_1731079022_zim_transcript.jsonl",
+    "Klaus": "transcripts/Klaus_1731079022_zim_transcript.jsonl",
+    "Luca": "transcripts/Luca_1731079022_zim_transcript.jsonl",
+    "Myra": "transcripts/Myra_1731079022_zim_transcript.jsonl",
+    "James": "transcripts/James_1731079022_zim_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731079022_zim_game_controller_log.txt"
+}

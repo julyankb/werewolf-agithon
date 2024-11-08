@@ -1,0 +1,109 @@
+{
+  "activity_id": "1731033968_HYS",
+  "players": [
+    "James",
+    "Abhimanyu",
+    "Ramesh",
+    "Yuki",
+    "Luca",
+    "Arjun",
+    "Olivia",
+    "Pietro"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Luca": "wolf",
+    "James": "wolf",
+    "Arjun": "seer",
+    "Ramesh": "doctor",
+    "Abhimanyu": "villager",
+    "Olivia": "villager",
+    "Yuki": "villager",
+    "Pietro": "villager"
+  },
+  "total_rounds": 2,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "WOLVES",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "James": "Abhimanyu",
+          "Luca": "Abhimanyu"
+        },
+        "1": {
+          "James": "Arjun",
+          "Luca": "Arjun"
+        }
+      },
+      "doctors_save": {
+        "0": "Yuki",
+        "1": null
+      },
+      "alive_players_votes": {
+        "0": {
+          "James": "Luca",
+          "Yuki": "Ramesh",
+          "Luca": "Ramesh",
+          "Arjun": "Luca",
+          "Ramesh": "Luca",
+          "Pietro": "Ramesh",
+          "Olivia": "Ramesh"
+        },
+        "1": {
+          "James": "Pietro",
+          "Luca": "Pietro",
+          "Olivia": "Pietro",
+          "Pietro": "James",
+          "Yuki": "James"
+        }
+      }
+    },
+    "total_rounds": 2,
+    "round_wise_alive_players": {
+      "0": [
+        "James",
+        "Yuki",
+        "Luca",
+        "Arjun",
+        "Olivia",
+        "Pietro"
+      ],
+      "1": [
+        "James",
+        "Yuki",
+        "Luca",
+        "Olivia"
+      ]
+    },
+    "last_standing_players": [
+      "James",
+      "Yuki",
+      "Luca",
+      "Olivia"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Abhimanyu": "transcripts/Abhimanyu_1731033968_HYS_log.txt",
+    "Ramesh": "transcripts/Ramesh_1731033968_HYS_log.txt",
+    "Yuki": "transcripts/Yuki_1731033968_HYS_log.txt",
+    "Luca": "transcripts/Luca_1731033968_HYS_log.txt",
+    "Arjun": "transcripts/Arjun_1731033968_HYS_log.txt",
+    "Olivia": "transcripts/Olivia_1731033968_HYS_log.txt",
+    "Pietro": "transcripts/Pietro_1731033968_HYS_log.txt",
+    "James": "transcripts/James_1731033968_HYS_log.txt"
+  },
+  "transcripts": {
+    "Abhimanyu": "transcripts/Abhimanyu_1731033968_HYS_transcript.jsonl",
+    "Ramesh": "transcripts/Ramesh_1731033968_HYS_transcript.jsonl",
+    "Yuki": "transcripts/Yuki_1731033968_HYS_transcript.jsonl",
+    "Luca": "transcripts/Luca_1731033968_HYS_transcript.jsonl",
+    "Arjun": "transcripts/Arjun_1731033968_HYS_transcript.jsonl",
+    "Olivia": "transcripts/Olivia_1731033968_HYS_transcript.jsonl",
+    "Pietro": "transcripts/Pietro_1731033968_HYS_transcript.jsonl",
+    "James": "transcripts/James_1731033968_HYS_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731033968_HYS_game_controller_log.txt"
+}

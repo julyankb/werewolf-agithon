@@ -1,0 +1,42 @@
+{
+  "activity_id": "1731079714_G9z",
+  "players": [
+    "Pietro",
+    "Abhimanyu",
+    "Luca",
+    "vihaan",
+    "Ramesh",
+    "Sophie",
+    "Wei",
+    "Chagent"
+  ],
+  "game_status": "terminated",
+  "player_errors": {},
+  "failure_game_stats": {
+    "faulty_players": [
+      "Chagent"
+    ],
+    "termination_code": "AGENT_FAILURE",
+    "termination_reason": "player agent Chagent exited",
+    "traceback": "\"INFO:sentient_agent_runner:Loading agent, parsing the argument\\nINFO:sentient_agent_runner:Parsed command line arguments: werewolf Chagent, 1731079714_G9z, agent/cot_agent.py, CoTAgent, /tmp/Chagent_1731079714_G9z_agent_config.yaml\\nTraceback (most recent call last):\\n  File \\\"/sent_lib/agent_loader/user_agent_loader.py\\\", line 71, in <module>\\n    asyncio.run(run_agent(campaign_name, player_name, activity_id, module_path, class_name, sentient_llm_config, agent_config, messenger_config, transcript_manager_config))\\n  File \\\"/usr/local/lib/python3.12/asyncio/runners.py\\\", line 194, in run\\n    return runner.run(main)\\n           ^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/asyncio/runners.py\\\", line 118, in run\\n    return self._loop.run_until_complete(task)\\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n\""
+  },
+  "logs": {
+    "Pietro": "transcripts/Pietro_1731079714_G9z_log.txt",
+    "Abhimanyu": "transcripts/Abhimanyu_1731079714_G9z_log.txt",
+    "Luca": "transcripts/Luca_1731079714_G9z_log.txt",
+    "vihaan": "transcripts/vihaan_1731079714_G9z_log.txt",
+    "Ramesh": "transcripts/Ramesh_1731079714_G9z_log.txt",
+    "Sophie": "transcripts/Sophie_1731079714_G9z_log.txt",
+    "Wei": "transcripts/Wei_1731079714_G9z_log.txt"
+  },
+  "transcripts": {
+    "Pietro": "transcripts/Pietro_1731079714_G9z_transcript.jsonl",
+    "Abhimanyu": "transcripts/Abhimanyu_1731079714_G9z_transcript.jsonl",
+    "Luca": "transcripts/Luca_1731079714_G9z_transcript.jsonl",
+    "vihaan": "transcripts/vihaan_1731079714_G9z_transcript.jsonl",
+    "Ramesh": "transcripts/Ramesh_1731079714_G9z_transcript.jsonl",
+    "Sophie": "transcripts/Sophie_1731079714_G9z_transcript.jsonl",
+    "Wei": "transcripts/Wei_1731079714_G9z_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731079714_G9z_game_controller_log.txt"
+}

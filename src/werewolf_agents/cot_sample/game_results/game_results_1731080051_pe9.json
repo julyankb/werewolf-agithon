@@ -1,0 +1,120 @@
+{
+  "activity_id": "1731080051_pe9",
+  "players": [
+    "Chagent",
+    "Astrid",
+    "Luca",
+    "Abhimanyu",
+    "Hiroshi",
+    "Ingrid",
+    "Aarav",
+    "Arjun"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Astrid": "wolf",
+    "Arjun": "wolf",
+    "Ingrid": "seer",
+    "Luca": "doctor",
+    "Hiroshi": "villager",
+    "Chagent": "villager",
+    "Aarav": "villager",
+    "Abhimanyu": "villager"
+  },
+  "total_rounds": 3,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Astrid": "Luca",
+          "Arjun": "Luca"
+        },
+        "1": {
+          "Astrid": "Ingrid",
+          "Arjun": "Ingrid"
+        },
+        "2": {
+          "Arjun": "Hiroshi"
+        }
+      },
+      "doctors_save": {
+        "0": "Astrid",
+        "1": null,
+        "2": null
+      },
+      "alive_players_votes": {
+        "0": {
+          "Arjun": "Chagent",
+          "Ingrid": "Astrid",
+          "Chagent": "Astrid",
+          "Astrid": "Chagent",
+          "Aarav": "Chagent",
+          "Hiroshi": "Chagent",
+          "Abhimanyu": "Astrid"
+        },
+        "1": {
+          "Arjun": "Astrid",
+          "Abhimanyu": "Astrid",
+          "Astrid": "Arjun",
+          "Aarav": "Astrid",
+          "Hiroshi": "Astrid"
+        },
+        "2": {
+          "Abhimanyu": "Arjun",
+          "Aarav": "Arjun",
+          "Arjun": "Aarav"
+        }
+      }
+    },
+    "total_rounds": 3,
+    "round_wise_alive_players": {
+      "0": [
+        "Astrid",
+        "Abhimanyu",
+        "Hiroshi",
+        "Ingrid",
+        "Aarav",
+        "Arjun"
+      ],
+      "1": [
+        "Abhimanyu",
+        "Hiroshi",
+        "Aarav",
+        "Arjun"
+      ],
+      "2": [
+        "Abhimanyu",
+        "Aarav"
+      ]
+    },
+    "last_standing_players": [
+      "Abhimanyu",
+      "Aarav"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Astrid": "transcripts/Astrid_1731080051_pe9_log.txt",
+    "Luca": "transcripts/Luca_1731080051_pe9_log.txt",
+    "Abhimanyu": "transcripts/Abhimanyu_1731080051_pe9_log.txt",
+    "Hiroshi": "transcripts/Hiroshi_1731080051_pe9_log.txt",
+    "Ingrid": "transcripts/Ingrid_1731080051_pe9_log.txt",
+    "Aarav": "transcripts/Aarav_1731080051_pe9_log.txt",
+    "Arjun": "transcripts/Arjun_1731080051_pe9_log.txt",
+    "Chagent": "transcripts/Chagent_1731080051_pe9_log.txt"
+  },
+  "transcripts": {
+    "Astrid": "transcripts/Astrid_1731080051_pe9_transcript.jsonl",
+    "Luca": "transcripts/Luca_1731080051_pe9_transcript.jsonl",
+    "Abhimanyu": "transcripts/Abhimanyu_1731080051_pe9_transcript.jsonl",
+    "Hiroshi": "transcripts/Hiroshi_1731080051_pe9_transcript.jsonl",
+    "Ingrid": "transcripts/Ingrid_1731080051_pe9_transcript.jsonl",
+    "Aarav": "transcripts/Aarav_1731080051_pe9_transcript.jsonl",
+    "Arjun": "transcripts/Arjun_1731080051_pe9_transcript.jsonl",
+    "Chagent": "transcripts/Chagent_1731080051_pe9_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731080051_pe9_game_controller_log.txt"
+}

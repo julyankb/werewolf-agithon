@@ -71,7 +71,11 @@ class CoTAgent(IReactiveAgent):
 
     def __init__(self):
         logger.debug("WerewolfAgent initialized.")
-        
+        self.suspicion_scores = defaultdict(int)  # Initialize suspicion tracker
+        self.suspicious_keywords = [
+            "accuse", "vote", "suspicious", "lying", "liar", 
+            "werewolf", "wolf", "kill", "eliminate"
+        ]
 
     def __initialize__(self, name: str, description: str, config: dict = None):
         super().__initialize__(name, description, config)
@@ -119,6 +123,20 @@ class CoTAgent(IReactiveAgent):
             # if this is the first message in the game channel, the moderator is sending the rules, store them
             if message.header.channel == self.GAME_CHANNEL and message.header.sender == self.MODERATOR_NAME and not self.game_intro:
                 self.game_intro = message.content.text
+
+        # Update suspicion scores for messages in game channel
+        if (message.header.channel == self.GAME_CHANNEL and 
+            message.header.sender != self._name and 
+            message.header.sender != self.MODERATOR_NAME):
+            
+            msg_lower = message.content.text.lower()
+            # Check for suspicious keywords and aggressive tone
+            suspicious_count = sum(1 for word in self.suspicious_keywords if word in msg_lower)
+            if suspicious_count > 0:
+                self.suspicion_scores[message.header.sender] += suspicious_count
+                logger.info(f"Suspicion Update: {message.header.sender}'s score increased by {suspicious_count} "
+                           f"(Total: {self.suspicion_scores[message.header.sender]})")
+
         logger.info(f"message stored in messages {message}")
 
     def get_interwoven_history(self, include_wolf_channel=False):
@@ -331,17 +349,24 @@ Based on your thoughts, the current situation, and your reflection on the initia
         role_prompt = getattr(self, f"{self.role.upper()}_PROMPT", self.VILLAGER_PROMPT)
         game_situation = self.get_interwoven_history()
         
+        # Include suspicion scores in game situation
+        suspicion_info = "\n".join([
+            f"Suspicion level for {player}: {score}" 
+            for player, score in self.suspicion_scores.items()
+        ])
+        game_situation = f"{self.get_interwoven_history()}\n\nCurrent suspicion levels:\n{suspicion_info}"
+        
+        # Add suspicion data to specific prompt
         specific_prompt = """think through your response by answering the following step-by-step:
 1. What important information has been shared in the recent discussions?
-2. Based on the game history, who seems most suspicious or trustworthy?
+2. Based on the game history and suspicion levels, who seems most suspicious or trustworthy?
 3. What evidence or observations can I share to help the village without revealing my role?
 4. How can I guide the discussion in a helpful direction based on what I know?
-5. If it's time to vote, who should I vote for and why, considering all the information available?
+5. If it's time to vote, who should I vote for considering both discussion patterns and suspicion scores?
 6. How do I respond if accused during the day without revealing my role?"""
 
         inner_monologue = self._get_inner_monologue(role_prompt, game_situation, specific_prompt)
-
-        action = self._get_final_action(role_prompt, game_situation, inner_monologue, "vote and discussion point which includes reasoning behind your vote")        
+        action = self._get_final_action(role_prompt, game_situation, inner_monologue, "vote and discussion point which includes reasoning behind your vote")
         return action
 
     def _get_response_for_wolf_channel_to_kill_villagers(self, message):

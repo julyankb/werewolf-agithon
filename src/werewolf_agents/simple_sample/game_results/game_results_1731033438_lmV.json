@@ -1,0 +1,124 @@
+{
+  "activity_id": "1731033438_lmV",
+  "players": [
+    "James",
+    "Ingrid",
+    "Emma",
+    "Ling",
+    "Ramesh",
+    "Arjun",
+    "vihaan",
+    "Lars"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Lars": "wolf",
+    "James": "wolf",
+    "Emma": "seer",
+    "Ingrid": "doctor",
+    "vihaan": "villager",
+    "Arjun": "villager",
+    "Ling": "villager",
+    "Ramesh": "villager"
+  },
+  "total_rounds": 3,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "James": "Arjun",
+          "Lars": "Arjun"
+        },
+        "1": {
+          "Lars": "Emma"
+        },
+        "2": {
+          "Lars": "Ingrid"
+        }
+      },
+      "doctors_save": {
+        "0": "Emma",
+        "1": "Emma",
+        "2": "Ling"
+      },
+      "alive_players_votes": {
+        "0": {
+          "Ling": "James",
+          "vihaan": "James",
+          "Emma": "James",
+          "Ramesh": "James",
+          "Lars": "James",
+          "James": "Lars",
+          "Ingrid": "James"
+        },
+        "1": {
+          "Lars": "Emma",
+          "Ling": "Emma",
+          "Ramesh": "Emma",
+          "vihaan": "Emma",
+          "Emma": "Lars",
+          "Ingrid": "Emma"
+        },
+        "2": {
+          "vihaan": "Lars",
+          "Lars": "Ramesh",
+          "Ling": "Lars",
+          "Ramesh": "Lars"
+        }
+      }
+    },
+    "total_rounds": 3,
+    "round_wise_alive_players": {
+      "0": [
+        "Ingrid",
+        "Emma",
+        "Ling",
+        "Ramesh",
+        "vihaan",
+        "Lars"
+      ],
+      "1": [
+        "Ingrid",
+        "Ling",
+        "Ramesh",
+        "vihaan",
+        "Lars"
+      ],
+      "2": [
+        "Ling",
+        "Ramesh",
+        "vihaan"
+      ]
+    },
+    "last_standing_players": [
+      "Ling",
+      "Ramesh",
+      "vihaan"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Ingrid": "transcripts/Ingrid_1731033438_lmV_log.txt",
+    "Emma": "transcripts/Emma_1731033438_lmV_log.txt",
+    "Ling": "transcripts/Ling_1731033438_lmV_log.txt",
+    "Ramesh": "transcripts/Ramesh_1731033438_lmV_log.txt",
+    "Arjun": "transcripts/Arjun_1731033438_lmV_log.txt",
+    "vihaan": "transcripts/vihaan_1731033438_lmV_log.txt",
+    "Lars": "transcripts/Lars_1731033438_lmV_log.txt",
+    "James": "transcripts/James_1731033438_lmV_log.txt"
+  },
+  "transcripts": {
+    "Ingrid": "transcripts/Ingrid_1731033438_lmV_transcript.jsonl",
+    "Emma": "transcripts/Emma_1731033438_lmV_transcript.jsonl",
+    "Ling": "transcripts/Ling_1731033438_lmV_transcript.jsonl",
+    "Ramesh": "transcripts/Ramesh_1731033438_lmV_transcript.jsonl",
+    "Arjun": "transcripts/Arjun_1731033438_lmV_transcript.jsonl",
+    "vihaan": "transcripts/vihaan_1731033438_lmV_transcript.jsonl",
+    "Lars": "transcripts/Lars_1731033438_lmV_transcript.jsonl",
+    "James": "transcripts/James_1731033438_lmV_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731033438_lmV_game_controller_log.txt"
+}
