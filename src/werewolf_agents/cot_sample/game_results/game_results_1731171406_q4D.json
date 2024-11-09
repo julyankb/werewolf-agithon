@@ -1,0 +1,109 @@
+{
+  "activity_id": "1731171406_q4D",
+  "players": [
+    "Chagent",
+    "Abhimanyu",
+    "Olivia",
+    "Sophie",
+    "Astrid",
+    "Jian",
+    "Chen",
+    "Luca"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Astrid": "wolf",
+    "Sophie": "wolf",
+    "Luca": "seer",
+    "Abhimanyu": "doctor",
+    "Chen": "villager",
+    "Olivia": "villager",
+    "Jian": "villager",
+    "Chagent": "villager"
+  },
+  "total_rounds": 2,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "WOLVES",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Sophie": "Jian",
+          "Astrid": "Luca"
+        },
+        "1": {
+          "Sophie": "Chen",
+          "Astrid": "Luca"
+        }
+      },
+      "doctors_save": {
+        "0": "Olivia",
+        "1": null
+      },
+      "alive_players_votes": {
+        "0": {
+          "Abhimanyu": "Chagent",
+          "Chagent": "Abhimanyu",
+          "Astrid": "Abhimanyu",
+          "Luca": "Chen",
+          "Sophie": "Chagent",
+          "Chen": "Luca",
+          "Olivia": "Abhimanyu"
+        },
+        "1": {
+          "Olivia": "Luca",
+          "Luca": "Chagent",
+          "Chagent": "Luca",
+          "Astrid": "Chagent",
+          "Sophie": "Luca"
+        }
+      }
+    },
+    "total_rounds": 2,
+    "round_wise_alive_players": {
+      "0": [
+        "Chagent",
+        "Olivia",
+        "Sophie",
+        "Astrid",
+        "Chen",
+        "Luca"
+      ],
+      "1": [
+        "Chagent",
+        "Olivia",
+        "Sophie",
+        "Astrid"
+      ]
+    },
+    "last_standing_players": [
+      "Chagent",
+      "Olivia",
+      "Sophie",
+      "Astrid"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Abhimanyu": "transcripts/Abhimanyu_1731171406_q4D_log.txt",
+    "Olivia": "transcripts/Olivia_1731171406_q4D_log.txt",
+    "Sophie": "transcripts/Sophie_1731171406_q4D_log.txt",
+    "Astrid": "transcripts/Astrid_1731171406_q4D_log.txt",
+    "Jian": "transcripts/Jian_1731171406_q4D_log.txt",
+    "Chen": "transcripts/Chen_1731171406_q4D_log.txt",
+    "Luca": "transcripts/Luca_1731171406_q4D_log.txt",
+    "Chagent": "transcripts/Chagent_1731171406_q4D_log.txt"
+  },
+  "transcripts": {
+    "Abhimanyu": "transcripts/Abhimanyu_1731171406_q4D_transcript.jsonl",
+    "Olivia": "transcripts/Olivia_1731171406_q4D_transcript.jsonl",
+    "Sophie": "transcripts/Sophie_1731171406_q4D_transcript.jsonl",
+    "Astrid": "transcripts/Astrid_1731171406_q4D_transcript.jsonl",
+    "Jian": "transcripts/Jian_1731171406_q4D_transcript.jsonl",
+    "Chen": "transcripts/Chen_1731171406_q4D_transcript.jsonl",
+    "Luca": "transcripts/Luca_1731171406_q4D_transcript.jsonl",
+    "Chagent": "transcripts/Chagent_1731171406_q4D_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731171406_q4D_game_controller_log.txt"
+}

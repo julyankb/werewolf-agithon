@@ -72,9 +72,15 @@ class CoTAgent(IReactiveAgent):
     def __init__(self):
         logger.debug("WerewolfAgent initialized.")
         self.suspicion_scores = defaultdict(int)  # Initialize suspicion tracker
+        self.voting_history = defaultdict(list)  # Track voting patterns by round
+        self.current_round = 0  # Track the current voting round
         self.suspicious_keywords = [
             "accuse", "vote", "suspicious", "lying", "liar", 
             "werewolf", "wolf", "kill", "eliminate"
+        ]
+        self.defensive_keywords = [
+            "not me", "innocent", "trust me", "i swear",
+            "you're wrong", "you are wrong"
         ]
 
     def __initialize__(self, name: str, description: str, config: dict = None):
@@ -124,18 +130,47 @@ class CoTAgent(IReactiveAgent):
             if message.header.channel == self.GAME_CHANNEL and message.header.sender == self.MODERATOR_NAME and not self.game_intro:
                 self.game_intro = message.content.text
 
-        # Update suspicion scores for messages in game channel
-        if (message.header.channel == self.GAME_CHANNEL and 
-            message.header.sender != self._name and 
-            message.header.sender != self.MODERATOR_NAME):
-            
+        # Track voting patterns and analyze behavior in game channel
+        if message.header.channel == self.GAME_CHANNEL:
             msg_lower = message.content.text.lower()
-            # Check for suspicious keywords and aggressive tone
-            suspicious_count = sum(1 for word in self.suspicious_keywords if word in msg_lower)
-            if suspicious_count > 0:
-                self.suspicion_scores[message.header.sender] += suspicious_count
-                logger.info(f"Suspicion Update: {message.header.sender}'s score increased by {suspicious_count} "
-                           f"(Total: {self.suspicion_scores[message.header.sender]})")
+            sender = message.header.sender
+            
+            # Skip processing moderator messages
+            if sender != self.MODERATOR_NAME and sender != self._name:
+                # Check for vote casting
+                vote_match = re.search(r"(?i)vote (?:for |to eliminate )?(\w+)", msg_lower)
+                if vote_match:
+                    voted_player = vote_match.group(1)
+                    self.voting_history[self.current_round].append({
+                        "voter": sender,
+                        "target": voted_player,
+                        "message": message.content.text
+                    })
+                    
+                    # Check for vote switching
+                    if len(self.voting_history[self.current_round]) > 1:
+                        previous_votes = [
+                            vote["target"] 
+                            for vote in self.voting_history[self.current_round] 
+                            if vote["voter"] == sender
+                        ]
+                        if len(previous_votes) > 1 and previous_votes[-1] != voted_player:
+                            self.suspicion_scores[sender] += 2
+                            logger.info(f"Vote switching detected: {sender}'s suspicion increased")
+                
+                # Analyze message content for suspicious behavior
+                suspicious_count = sum(1 for word in self.suspicious_keywords if word in msg_lower)
+                defensive_count = sum(1 for word in self.defensive_keywords if word in msg_lower)
+                
+                # Update suspicion scores
+                if suspicious_count > 0:
+                    self.suspicion_scores[sender] += suspicious_count
+                if defensive_count > 0:
+                    self.suspicion_scores[sender] += defensive_count * 0.5
+                    
+                logger.info(f"Behavior Analysis - {sender}: "
+                           f"Suspicious: {suspicious_count}, Defensive: {defensive_count}, "
+                           f"Total Score: {self.suspicion_scores[sender]}")
 
         logger.info(f"message stored in messages {message}")
 
@@ -349,21 +384,31 @@ Based on your thoughts, the current situation, and your reflection on the initia
         role_prompt = getattr(self, f"{self.role.upper()}_PROMPT", self.VILLAGER_PROMPT)
         game_situation = self.get_interwoven_history()
         
-        # Include suspicion scores in game situation
-        suspicion_info = "\n".join([
-            f"Suspicion level for {player}: {score}" 
-            for player, score in self.suspicion_scores.items()
-        ])
-        game_situation = f"{self.get_interwoven_history()}\n\nCurrent suspicion levels:\n{suspicion_info}"
+        # Add voting history to game situation
+        voting_summary = "\nVoting History:\n"
+        for round_num, votes in self.voting_history.items():
+            voting_summary += f"Round {round_num}:\n"
+            for vote in votes:
+                voting_summary += f"- {vote['voter']} voted for {vote['target']}\n"
         
-        # Add suspicion data to specific prompt
+        game_situation = f"{game_situation}\n{voting_summary}"
+        
+        # Enhance specific prompt with voting analysis
         specific_prompt = """think through your response by answering the following step-by-step:
 1. What important information has been shared in the recent discussions?
-2. Based on the game history and suspicion levels, who seems most suspicious or trustworthy?
-3. What evidence or observations can I share to help the village without revealing my role?
-4. How can I guide the discussion in a helpful direction based on what I know?
-5. If it's time to vote, who should I vote for considering both discussion patterns and suspicion scores?
-6. How do I respond if accused during the day without revealing my role?"""
+2. Based on voting history:
+   - Who has changed their votes frequently?
+   - Who tends to vote together?
+   - Are there any voting patterns that seem suspicious?
+3. Based on behavior analysis:
+   - Who has been overly defensive?
+   - Who has been aggressive in accusations?
+   - Do any players' actions contradict their words?
+4. Considering both voting patterns and suspicion scores:
+   - Who are the most suspicious players?
+   - What evidence supports these suspicions?
+5. How can I share my observations without revealing too much about my role?
+6. If it's time to vote, who is the most logical target based on all available evidence?"""
 
         inner_monologue = self._get_inner_monologue(role_prompt, game_situation, specific_prompt)
         action = self._get_final_action(role_prompt, game_situation, inner_monologue, "vote and discussion point which includes reasoning behind your vote")

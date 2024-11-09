@@ -1,0 +1,108 @@
+{
+  "activity_id": "1731085594_eG2",
+  "players": [
+    "Chagent",
+    "Helga",
+    "Luca",
+    "Aarav",
+    "Michael",
+    "Yuki",
+    "Akira",
+    "Chen"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Luca": "wolf",
+    "Yuki": "wolf",
+    "Aarav": "seer",
+    "Chen": "doctor",
+    "Helga": "villager",
+    "Michael": "villager",
+    "Akira": "villager",
+    "Chagent": "villager"
+  },
+  "total_rounds": 2,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Luca": "Michael",
+          "Yuki": "Akira"
+        },
+        "1": {
+          "Yuki": "Aarav"
+        }
+      },
+      "doctors_save": {
+        "0": "Aarav",
+        "1": "Yuki"
+      },
+      "alive_players_votes": {
+        "0": {
+          "Luca": "Yuki",
+          "Chagent": "Luca",
+          "Aarav": "Luca",
+          "Helga": "Luca",
+          "Chen": "Luca",
+          "Akira": "Luca",
+          "Yuki": "Luca"
+        },
+        "1": {
+          "Chagent": "Yuki",
+          "Helga": "Yuki",
+          "Yuki": "Chen",
+          "Akira": "Yuki",
+          "Chen": "Yuki"
+        }
+      }
+    },
+    "total_rounds": 2,
+    "round_wise_alive_players": {
+      "0": [
+        "Chagent",
+        "Helga",
+        "Aarav",
+        "Yuki",
+        "Akira",
+        "Chen"
+      ],
+      "1": [
+        "Chagent",
+        "Helga",
+        "Akira",
+        "Chen"
+      ]
+    },
+    "last_standing_players": [
+      "Chagent",
+      "Helga",
+      "Akira",
+      "Chen"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Helga": "transcripts/Helga_1731085594_eG2_log.txt",
+    "Luca": "transcripts/Luca_1731085594_eG2_log.txt",
+    "Aarav": "transcripts/Aarav_1731085594_eG2_log.txt",
+    "Michael": "transcripts/Michael_1731085594_eG2_log.txt",
+    "Yuki": "transcripts/Yuki_1731085594_eG2_log.txt",
+    "Akira": "transcripts/Akira_1731085594_eG2_log.txt",
+    "Chen": "transcripts/Chen_1731085594_eG2_log.txt",
+    "Chagent": "transcripts/Chagent_1731085594_eG2_log.txt"
+  },
+  "transcripts": {
+    "Helga": "transcripts/Helga_1731085594_eG2_transcript.jsonl",
+    "Luca": "transcripts/Luca_1731085594_eG2_transcript.jsonl",
+    "Aarav": "transcripts/Aarav_1731085594_eG2_transcript.jsonl",
+    "Michael": "transcripts/Michael_1731085594_eG2_transcript.jsonl",
+    "Yuki": "transcripts/Yuki_1731085594_eG2_transcript.jsonl",
+    "Akira": "transcripts/Akira_1731085594_eG2_transcript.jsonl",
+    "Chen": "transcripts/Chen_1731085594_eG2_transcript.jsonl",
+    "Chagent": "transcripts/Chagent_1731085594_eG2_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731085594_eG2_game_controller_log.txt"
+}
