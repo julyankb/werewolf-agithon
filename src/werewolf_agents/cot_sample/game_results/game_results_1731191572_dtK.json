@@ -1,0 +1,109 @@
+{
+  "activity_id": "1731191572_dtK",
+  "players": [
+    "Julyan",
+    "Hiroshi",
+    "Helga",
+    "Ramesh",
+    "Myra",
+    "Elise",
+    "Kiara",
+    "Emma"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Emma": "wolf",
+    "Myra": "wolf",
+    "Ramesh": "seer",
+    "Hiroshi": "doctor",
+    "Helga": "villager",
+    "Kiara": "villager",
+    "Julyan": "villager",
+    "Elise": "villager"
+  },
+  "total_rounds": 2,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "WOLVES",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Myra": "Hiroshi",
+          "Emma": "Kiara"
+        },
+        "1": {
+          "Myra": "Ramesh",
+          "Emma": "Kiara"
+        }
+      },
+      "doctors_save": {
+        "0": "Helga",
+        "1": null
+      },
+      "alive_players_votes": {
+        "0": {
+          "Kiara": "Myra",
+          "Myra": "Elise",
+          "Helga": "Elise",
+          "Julyan": "Elise",
+          "Emma": "Myra",
+          "Elise": "Kiara",
+          "Ramesh": "Elise"
+        },
+        "1": {
+          "Emma": "Helga",
+          "Kiara": "Helga",
+          "Myra": "Kiara",
+          "Julyan": "Helga",
+          "Helga": "Kiara"
+        }
+      }
+    },
+    "total_rounds": 2,
+    "round_wise_alive_players": {
+      "0": [
+        "Julyan",
+        "Helga",
+        "Ramesh",
+        "Myra",
+        "Kiara",
+        "Emma"
+      ],
+      "1": [
+        "Julyan",
+        "Myra",
+        "Kiara",
+        "Emma"
+      ]
+    },
+    "last_standing_players": [
+      "Julyan",
+      "Myra",
+      "Kiara",
+      "Emma"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Hiroshi": "transcripts/Hiroshi_1731191572_dtK_log.txt",
+    "Helga": "transcripts/Helga_1731191572_dtK_log.txt",
+    "Ramesh": "transcripts/Ramesh_1731191572_dtK_log.txt",
+    "Myra": "transcripts/Myra_1731191572_dtK_log.txt",
+    "Elise": "transcripts/Elise_1731191572_dtK_log.txt",
+    "Kiara": "transcripts/Kiara_1731191572_dtK_log.txt",
+    "Emma": "transcripts/Emma_1731191572_dtK_log.txt",
+    "Julyan": "transcripts/Julyan_1731191572_dtK_log.txt"
+  },
+  "transcripts": {
+    "Hiroshi": "transcripts/Hiroshi_1731191572_dtK_transcript.jsonl",
+    "Helga": "transcripts/Helga_1731191572_dtK_transcript.jsonl",
+    "Ramesh": "transcripts/Ramesh_1731191572_dtK_transcript.jsonl",
+    "Myra": "transcripts/Myra_1731191572_dtK_transcript.jsonl",
+    "Elise": "transcripts/Elise_1731191572_dtK_transcript.jsonl",
+    "Kiara": "transcripts/Kiara_1731191572_dtK_transcript.jsonl",
+    "Emma": "transcripts/Emma_1731191572_dtK_transcript.jsonl",
+    "Julyan": "transcripts/Julyan_1731191572_dtK_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731191572_dtK_game_controller_log.txt"
+}

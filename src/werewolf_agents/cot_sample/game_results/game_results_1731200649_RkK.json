@@ -1,0 +1,57 @@
+{
+  "activity_id": "1731200649_RkK",
+  "players": [
+    "Julyan",
+    "Luca",
+    "Helga",
+    "John",
+    "Fredrik",
+    "Jian",
+    "Ling",
+    "Elise"
+  ],
+  "game_status": "terminated",
+  "player_roles": {
+    "John": "wolf",
+    "Julyan": "wolf",
+    "Elise": "seer",
+    "Helga": "doctor",
+    "Fredrik": "villager",
+    "Ling": "villager",
+    "Luca": "villager",
+    "Jian": "villager"
+  },
+  "total_rounds": 0,
+  "player_errors": {},
+  "success_game_stats": null,
+  "failure_game_stats": {
+    "faulty_players": [
+      "Julyan"
+    ],
+    "termination_code": "BAD_ANSWER",
+    "termination_reason": "Looks like wolf Julyan got some error None ",
+    "traceback": "{\"first_500\": \"Traceback (most recent call last):\\n  File \\\"/app/controller_loader/controller_loader.py\\\", line 697, in main\\n    await controller_runner_task\\n  File \\\"/app/controller_loader/controller_loader.py\\\", line 568, in run_controller\\n    await werewolf_game_machine.run_game()\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/werewolf_controller/controller.py\\\", line 281, in run_game\\n    await self._machine.trigger_event(self,\\\"start\\\")\\n  File \\\"/usr/local/lib/python3.12/site-packages/transitions\", \"last_500\": \"wait res\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/werewolf_controller/controller.py\\\", line 235, in on_enter_NIGHT_N3\\n    await self.game_logics.send_wolf_voting_message(self.game_model)\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/werewolf_controller/game_logic.py\\\", line 523, in send_wolf_voting_message\\n    raise InvalidPlayerResponse(\\nsentient_campaign.werewolf_controller.exceptions.InvalidPlayerResponse: Looks like wolf Julyan got some error None \\n\"}"
+  },
+  "running_game_stats": null,
+  "logs": {
+    "Luca": "transcripts/Luca_1731200649_RkK_log.txt",
+    "Helga": "transcripts/Helga_1731200649_RkK_log.txt",
+    "John": "transcripts/John_1731200649_RkK_log.txt",
+    "Fredrik": "transcripts/Fredrik_1731200649_RkK_log.txt",
+    "Jian": "transcripts/Jian_1731200649_RkK_log.txt",
+    "Ling": "transcripts/Ling_1731200649_RkK_log.txt",
+    "Elise": "transcripts/Elise_1731200649_RkK_log.txt",
+    "Julyan": "transcripts/Julyan_1731200649_RkK_log.txt"
+  },
+  "transcripts": {
+    "Luca": "transcripts/Luca_1731200649_RkK_transcript.jsonl",
+    "Helga": "transcripts/Helga_1731200649_RkK_transcript.jsonl",
+    "John": "transcripts/John_1731200649_RkK_transcript.jsonl",
+    "Fredrik": "transcripts/Fredrik_1731200649_RkK_transcript.jsonl",
+    "Jian": "transcripts/Jian_1731200649_RkK_transcript.jsonl",
+    "Ling": "transcripts/Ling_1731200649_RkK_transcript.jsonl",
+    "Elise": "transcripts/Elise_1731200649_RkK_transcript.jsonl",
+    "Julyan": "transcripts/Julyan_1731200649_RkK_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731200649_RkK_game_controller_log.txt"
+}

@@ -1,0 +1,44 @@
+{
+  "activity_id": "1731206642_rfi",
+  "players": [
+    "John",
+    "Yuki",
+    "Ramesh",
+    "Ling",
+    "Haruto",
+    "Sophie",
+    "Anna",
+    "Julyan"
+  ],
+  "game_status": "terminated",
+  "player_errors": {},
+  "failure_game_stats": {
+    "faulty_players": [
+      "John"
+    ],
+    "termination_code": "AGENT_FAILURE",
+    "termination_reason": "player agent John exited",
+    "traceback": "\"    response: IResponse = await self.activity_actions.respond_action(message.id, message.sender, recipient, action)\\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/adapter/actions/werewolf_actions.py\\\", line 177, in respond_action\\n    raise e\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/adapter/actions/werewolf_actions.py\\\", line 161, in respond_action\\n    response = await getattr(self, action.type)(\\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/adapter/actions/werewolf_actions.py\\\", line 474, in discussion\\n    resp: ActivityResponse = await self._require_response(\\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/adapter/actions/werewolf_actions.py\\\", line 242, in _require_response\\n    response: ActivityResponse = await player_agent.async_respond(message)\\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/demo_agents/single_agent.py\\\", line 149, in async_respond\\n    await self.get_response_from_agent(full_message)\\n  File \\\"/usr/local/lib/python3.12/site-packages/tenacity/asyncio/__init__.py\\\", line 189, in async_wrapped\\n    return await copy(fn, *args, **kwargs)\\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/tenacity/asyncio/__init__.py\\\", line 111, in __call__\\n    do = await self.iter(retry_state=retry_state)\\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/tenacity/asyncio/__init__.py\\\", line 153, in iter\\n    result = await action(retry_state)\\n             ^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/tenacity/_utils.py\\\", line 99, in inner\\n    return call(*args, **kwargs)\\n           ^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/tenacity/__init__.py\\\", line 398, in <lambda>\\n    self._add_action_func(lambda rs: rs.outcome.result())\\n                                     ^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/concurrent/futures/_base.py\\\", line 449, in result\\n    return self.__get_result()\\n           ^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/concurrent/futures/_base.py\\\", line 401, in __get_result\\n    raise self._exception\\n  File \\\"/usr/local/lib/python3.12/site-packages/tenacity/asyncio/__init__.py\\\", line 114, in __call__\\n    result = await fn(*args, **kwargs)\\n             ^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/demo_agents/single_agent.py\\\", line 163, in get_response_from_agent\\n  \""
+  },
+  "logs": {
+    "John": "transcripts/John_1731206642_rfi_log.txt",
+    "Yuki": "transcripts/Yuki_1731206642_rfi_log.txt",
+    "Ramesh": "transcripts/Ramesh_1731206642_rfi_log.txt",
+    "Ling": "transcripts/Ling_1731206642_rfi_log.txt",
+    "Haruto": "transcripts/Haruto_1731206642_rfi_log.txt",
+    "Sophie": "transcripts/Sophie_1731206642_rfi_log.txt",
+    "Anna": "transcripts/Anna_1731206642_rfi_log.txt",
+    "Julyan": "transcripts/Julyan_1731206642_rfi_log.txt"
+  },
+  "transcripts": {
+    "John": "transcripts/John_1731206642_rfi_transcript.jsonl",
+    "Yuki": "transcripts/Yuki_1731206642_rfi_transcript.jsonl",
+    "Ramesh": "transcripts/Ramesh_1731206642_rfi_transcript.jsonl",
+    "Ling": "transcripts/Ling_1731206642_rfi_transcript.jsonl",
+    "Haruto": "transcripts/Haruto_1731206642_rfi_transcript.jsonl",
+    "Sophie": "transcripts/Sophie_1731206642_rfi_transcript.jsonl",
+    "Anna": "transcripts/Anna_1731206642_rfi_transcript.jsonl",
+    "Julyan": "transcripts/Julyan_1731206642_rfi_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731206642_rfi_game_controller_log.txt"
+}

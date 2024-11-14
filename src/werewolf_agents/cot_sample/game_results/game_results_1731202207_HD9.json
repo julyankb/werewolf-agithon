@@ -1,0 +1,127 @@
+{
+  "activity_id": "1731202207_HD9",
+  "players": [
+    "Julyan",
+    "Michael",
+    "Klaus",
+    "Pietro",
+    "Wei",
+    "Olivia",
+    "Ling",
+    "Anna"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Wei": "wolf",
+    "Klaus": "wolf",
+    "Olivia": "seer",
+    "Pietro": "doctor",
+    "Anna": "villager",
+    "Michael": "villager",
+    "Ling": "villager",
+    "Julyan": "villager"
+  },
+  "total_rounds": 3,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Klaus": "Michael",
+          "Wei": "Pietro"
+        },
+        "1": {
+          "Wei": "Julyan"
+        },
+        "2": {
+          "Wei": "Anna"
+        }
+      },
+      "doctors_save": {
+        "0": "Klaus",
+        "1": "Julyan",
+        "2": "Anna"
+      },
+      "alive_players_votes": {
+        "0": {
+          "Olivia": "Wei",
+          "Ling": "Klaus",
+          "Julyan": "Olivia",
+          "Anna": "Klaus",
+          "Pietro": "Wei",
+          "Wei": "Klaus",
+          "Klaus": "Julyan"
+        },
+        "1": {
+          "Wei": "Julyan",
+          "Anna": "Julyan",
+          "Julyan": "Ling",
+          "Pietro": "Julyan",
+          "Olivia": "Julyan",
+          "Ling": "Julyan"
+        },
+        "2": {
+          "Pietro": "Wei",
+          "Wei": "Anna",
+          "Ling": "Wei",
+          "Olivia": "Pietro",
+          "Anna": "Pietro"
+        }
+      }
+    },
+    "total_rounds": 3,
+    "round_wise_alive_players": {
+      "0": [
+        "Julyan",
+        "Pietro",
+        "Wei",
+        "Olivia",
+        "Ling",
+        "Anna"
+      ],
+      "1": [
+        "Pietro",
+        "Wei",
+        "Olivia",
+        "Ling",
+        "Anna"
+      ],
+      "2": [
+        "Pietro",
+        "Olivia",
+        "Ling",
+        "Anna"
+      ]
+    },
+    "last_standing_players": [
+      "Pietro",
+      "Olivia",
+      "Ling",
+      "Anna"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Michael": "transcripts/Michael_1731202207_HD9_log.txt",
+    "Klaus": "transcripts/Klaus_1731202207_HD9_log.txt",
+    "Pietro": "transcripts/Pietro_1731202207_HD9_log.txt",
+    "Wei": "transcripts/Wei_1731202207_HD9_log.txt",
+    "Olivia": "transcripts/Olivia_1731202207_HD9_log.txt",
+    "Ling": "transcripts/Ling_1731202207_HD9_log.txt",
+    "Anna": "transcripts/Anna_1731202207_HD9_log.txt",
+    "Julyan": "transcripts/Julyan_1731202207_HD9_log.txt"
+  },
+  "transcripts": {
+    "Michael": "transcripts/Michael_1731202207_HD9_transcript.jsonl",
+    "Klaus": "transcripts/Klaus_1731202207_HD9_transcript.jsonl",
+    "Pietro": "transcripts/Pietro_1731202207_HD9_transcript.jsonl",
+    "Wei": "transcripts/Wei_1731202207_HD9_transcript.jsonl",
+    "Olivia": "transcripts/Olivia_1731202207_HD9_transcript.jsonl",
+    "Ling": "transcripts/Ling_1731202207_HD9_transcript.jsonl",
+    "Anna": "transcripts/Anna_1731202207_HD9_transcript.jsonl",
+    "Julyan": "transcripts/Julyan_1731202207_HD9_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731202207_HD9_game_controller_log.txt"
+}

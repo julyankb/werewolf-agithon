@@ -1,0 +1,111 @@
+{
+  "activity_id": "1731193682_kzN",
+  "players": [
+    "Julyan",
+    "Arjun",
+    "Ingrid",
+    "Pietro",
+    "Astrid",
+    "Ramesh",
+    "Abhimanyu",
+    "Emma"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Ramesh": "wolf",
+    "Emma": "wolf",
+    "Abhimanyu": "seer",
+    "Arjun": "doctor",
+    "Pietro": "villager",
+    "Ingrid": "villager",
+    "Astrid": "villager",
+    "Julyan": "villager"
+  },
+  "total_rounds": 2,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Ramesh": "Pietro",
+          "Emma": "Astrid"
+        },
+        "1": {
+          "Emma": "Abhimanyu"
+        }
+      },
+      "doctors_save": {
+        "0": "Ingrid",
+        "1": "Abhimanyu"
+      },
+      "alive_players_votes": {
+        "0": {
+          "Ingrid": "Ramesh",
+          "Astrid": "Ramesh",
+          "Emma": "Ramesh",
+          "Ramesh": "Emma",
+          "Arjun": "Ramesh",
+          "Abhimanyu": "Emma",
+          "Julyan": "Ramesh"
+        },
+        "1": {
+          "Emma": "Julyan",
+          "Arjun": "Emma",
+          "Abhimanyu": "Emma",
+          "Ingrid": "Emma",
+          "Julyan": "Emma",
+          "Astrid": "Emma"
+        }
+      }
+    },
+    "total_rounds": 2,
+    "round_wise_alive_players": {
+      "0": [
+        "Julyan",
+        "Arjun",
+        "Ingrid",
+        "Astrid",
+        "Abhimanyu",
+        "Emma"
+      ],
+      "1": [
+        "Julyan",
+        "Arjun",
+        "Ingrid",
+        "Astrid",
+        "Abhimanyu"
+      ]
+    },
+    "last_standing_players": [
+      "Julyan",
+      "Arjun",
+      "Ingrid",
+      "Astrid",
+      "Abhimanyu"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Arjun": "transcripts/Arjun_1731193682_kzN_log.txt",
+    "Ingrid": "transcripts/Ingrid_1731193682_kzN_log.txt",
+    "Pietro": "transcripts/Pietro_1731193682_kzN_log.txt",
+    "Astrid": "transcripts/Astrid_1731193682_kzN_log.txt",
+    "Ramesh": "transcripts/Ramesh_1731193682_kzN_log.txt",
+    "Abhimanyu": "transcripts/Abhimanyu_1731193682_kzN_log.txt",
+    "Emma": "transcripts/Emma_1731193682_kzN_log.txt",
+    "Julyan": "transcripts/Julyan_1731193682_kzN_log.txt"
+  },
+  "transcripts": {
+    "Arjun": "transcripts/Arjun_1731193682_kzN_transcript.jsonl",
+    "Ingrid": "transcripts/Ingrid_1731193682_kzN_transcript.jsonl",
+    "Pietro": "transcripts/Pietro_1731193682_kzN_transcript.jsonl",
+    "Astrid": "transcripts/Astrid_1731193682_kzN_transcript.jsonl",
+    "Ramesh": "transcripts/Ramesh_1731193682_kzN_transcript.jsonl",
+    "Abhimanyu": "transcripts/Abhimanyu_1731193682_kzN_transcript.jsonl",
+    "Emma": "transcripts/Emma_1731193682_kzN_transcript.jsonl",
+    "Julyan": "transcripts/Julyan_1731193682_kzN_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731193682_kzN_game_controller_log.txt"
+}

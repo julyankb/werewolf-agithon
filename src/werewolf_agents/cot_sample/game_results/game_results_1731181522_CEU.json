@@ -1,0 +1,109 @@
+{
+  "activity_id": "1731181522_CEU",
+  "players": [
+    "Chagent",
+    "Klaus",
+    "Michael",
+    "Ramesh",
+    "Emma",
+    "Akira",
+    "Jian",
+    "Kiara"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Akira": "wolf",
+    "Kiara": "wolf",
+    "Ramesh": "seer",
+    "Emma": "doctor",
+    "Michael": "villager",
+    "Chagent": "villager",
+    "Jian": "villager",
+    "Klaus": "villager"
+  },
+  "total_rounds": 2,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "WOLVES",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Akira": "Chagent",
+          "Kiara": "Michael"
+        },
+        "1": {
+          "Akira": "Michael",
+          "Kiara": "Ramesh"
+        }
+      },
+      "doctors_save": {
+        "0": "Akira",
+        "1": "Akira"
+      },
+      "alive_players_votes": {
+        "0": {
+          "Michael": "Jian",
+          "Emma": "Jian",
+          "Kiara": "Jian",
+          "Ramesh": "Jian",
+          "Klaus": "Jian",
+          "Jian": "Klaus",
+          "Akira": "Jian"
+        },
+        "1": {
+          "Klaus": "Emma",
+          "Emma": "Klaus",
+          "Ramesh": "Klaus",
+          "Akira": "Klaus",
+          "Kiara": "Klaus"
+        }
+      }
+    },
+    "total_rounds": 2,
+    "round_wise_alive_players": {
+      "0": [
+        "Klaus",
+        "Michael",
+        "Ramesh",
+        "Emma",
+        "Akira",
+        "Kiara"
+      ],
+      "1": [
+        "Ramesh",
+        "Emma",
+        "Akira",
+        "Kiara"
+      ]
+    },
+    "last_standing_players": [
+      "Ramesh",
+      "Emma",
+      "Akira",
+      "Kiara"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Klaus": "transcripts/Klaus_1731181522_CEU_log.txt",
+    "Michael": "transcripts/Michael_1731181522_CEU_log.txt",
+    "Ramesh": "transcripts/Ramesh_1731181522_CEU_log.txt",
+    "Emma": "transcripts/Emma_1731181522_CEU_log.txt",
+    "Akira": "transcripts/Akira_1731181522_CEU_log.txt",
+    "Jian": "transcripts/Jian_1731181522_CEU_log.txt",
+    "Kiara": "transcripts/Kiara_1731181522_CEU_log.txt",
+    "Chagent": "transcripts/Chagent_1731181522_CEU_log.txt"
+  },
+  "transcripts": {
+    "Klaus": "transcripts/Klaus_1731181522_CEU_transcript.jsonl",
+    "Michael": "transcripts/Michael_1731181522_CEU_transcript.jsonl",
+    "Ramesh": "transcripts/Ramesh_1731181522_CEU_transcript.jsonl",
+    "Emma": "transcripts/Emma_1731181522_CEU_transcript.jsonl",
+    "Akira": "transcripts/Akira_1731181522_CEU_transcript.jsonl",
+    "Jian": "transcripts/Jian_1731181522_CEU_transcript.jsonl",
+    "Kiara": "transcripts/Kiara_1731181522_CEU_transcript.jsonl",
+    "Chagent": "transcripts/Chagent_1731181522_CEU_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731181522_CEU_game_controller_log.txt"
+}

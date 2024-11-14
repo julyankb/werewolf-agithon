@@ -1,0 +1,111 @@
+{
+  "activity_id": "1731212648_NK0",
+  "players": [
+    "Julyan",
+    "Michael",
+    "Sophie",
+    "Yuki",
+    "Haruto",
+    "Luca",
+    "Elise",
+    "Emily"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Elise": "wolf",
+    "Sophie": "wolf",
+    "Haruto": "seer",
+    "Luca": "doctor",
+    "Yuki": "villager",
+    "Emily": "villager",
+    "Michael": "villager",
+    "Julyan": "villager"
+  },
+  "total_rounds": 2,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Sophie": "Yuki",
+          "Elise": "Luca"
+        },
+        "1": {
+          "Sophie": "Haruto"
+        }
+      },
+      "doctors_save": {
+        "0": "Emily",
+        "1": "Haruto"
+      },
+      "alive_players_votes": {
+        "0": {
+          "Julyan": "Emily",
+          "Elise": "Emily",
+          "Emily": "Elise",
+          "Sophie": "Elise",
+          "Haruto": "Elise",
+          "Luca": "Elise",
+          "Michael": "Elise"
+        },
+        "1": {
+          "Luca": "Sophie",
+          "Michael": "Sophie",
+          "Sophie": "Luca",
+          "Julyan": "Sophie",
+          "Emily": "Sophie",
+          "Haruto": "Sophie"
+        }
+      }
+    },
+    "total_rounds": 2,
+    "round_wise_alive_players": {
+      "0": [
+        "Julyan",
+        "Michael",
+        "Sophie",
+        "Haruto",
+        "Luca",
+        "Emily"
+      ],
+      "1": [
+        "Julyan",
+        "Michael",
+        "Haruto",
+        "Luca",
+        "Emily"
+      ]
+    },
+    "last_standing_players": [
+      "Julyan",
+      "Michael",
+      "Haruto",
+      "Luca",
+      "Emily"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Michael": "transcripts/Michael_1731212648_NK0_log.txt",
+    "Sophie": "transcripts/Sophie_1731212648_NK0_log.txt",
+    "Yuki": "transcripts/Yuki_1731212648_NK0_log.txt",
+    "Haruto": "transcripts/Haruto_1731212648_NK0_log.txt",
+    "Luca": "transcripts/Luca_1731212648_NK0_log.txt",
+    "Elise": "transcripts/Elise_1731212648_NK0_log.txt",
+    "Emily": "transcripts/Emily_1731212648_NK0_log.txt",
+    "Julyan": "transcripts/Julyan_1731212648_NK0_log.txt"
+  },
+  "transcripts": {
+    "Michael": "transcripts/Michael_1731212648_NK0_transcript.jsonl",
+    "Sophie": "transcripts/Sophie_1731212648_NK0_transcript.jsonl",
+    "Yuki": "transcripts/Yuki_1731212648_NK0_transcript.jsonl",
+    "Haruto": "transcripts/Haruto_1731212648_NK0_transcript.jsonl",
+    "Luca": "transcripts/Luca_1731212648_NK0_transcript.jsonl",
+    "Elise": "transcripts/Elise_1731212648_NK0_transcript.jsonl",
+    "Emily": "transcripts/Emily_1731212648_NK0_transcript.jsonl",
+    "Julyan": "transcripts/Julyan_1731212648_NK0_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731212648_NK0_game_controller_log.txt"
+}

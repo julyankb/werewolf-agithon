@@ -1,0 +1,125 @@
+{
+  "activity_id": "1731203652_wbe",
+  "players": [
+    "Julyan",
+    "John",
+    "Akira",
+    "Elise",
+    "Lars",
+    "Aarav",
+    "Helga",
+    "Olivia"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "John": "wolf",
+    "Olivia": "wolf",
+    "Lars": "seer",
+    "Elise": "doctor",
+    "Aarav": "villager",
+    "Akira": "villager",
+    "Julyan": "villager",
+    "Helga": "villager"
+  },
+  "total_rounds": 3,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "John": "Helga",
+          "Olivia": "Aarav"
+        },
+        "1": {
+          "John": "Lars",
+          "Olivia": "Lars"
+        },
+        "2": {
+          "Olivia": "Aarav"
+        }
+      },
+      "doctors_save": {
+        "0": "Olivia",
+        "1": "Lars",
+        "2": "Akira"
+      },
+      "alive_players_votes": {
+        "0": {
+          "Lars": "John",
+          "Aarav": "John",
+          "Julyan": "Olivia",
+          "John": "Julyan",
+          "Akira": "Julyan",
+          "Olivia": "Julyan",
+          "Elise": "John"
+        },
+        "1": {
+          "Aarav": "John",
+          "Elise": "John",
+          "John": "Lars",
+          "Olivia": "Lars",
+          "Akira": "John",
+          "Lars": "John"
+        },
+        "2": {
+          "Elise": "Olivia",
+          "Lars": "Olivia",
+          "Akira": "Olivia",
+          "Olivia": "Lars"
+        }
+      }
+    },
+    "total_rounds": 3,
+    "round_wise_alive_players": {
+      "0": [
+        "John",
+        "Akira",
+        "Elise",
+        "Lars",
+        "Aarav",
+        "Olivia"
+      ],
+      "1": [
+        "Akira",
+        "Elise",
+        "Lars",
+        "Aarav",
+        "Olivia"
+      ],
+      "2": [
+        "Akira",
+        "Elise",
+        "Lars"
+      ]
+    },
+    "last_standing_players": [
+      "Akira",
+      "Elise",
+      "Lars"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "John": "transcripts/John_1731203652_wbe_log.txt",
+    "Akira": "transcripts/Akira_1731203652_wbe_log.txt",
+    "Elise": "transcripts/Elise_1731203652_wbe_log.txt",
+    "Lars": "transcripts/Lars_1731203652_wbe_log.txt",
+    "Aarav": "transcripts/Aarav_1731203652_wbe_log.txt",
+    "Helga": "transcripts/Helga_1731203652_wbe_log.txt",
+    "Olivia": "transcripts/Olivia_1731203652_wbe_log.txt",
+    "Julyan": "transcripts/Julyan_1731203652_wbe_log.txt"
+  },
+  "transcripts": {
+    "John": "transcripts/John_1731203652_wbe_transcript.jsonl",
+    "Akira": "transcripts/Akira_1731203652_wbe_transcript.jsonl",
+    "Elise": "transcripts/Elise_1731203652_wbe_transcript.jsonl",
+    "Lars": "transcripts/Lars_1731203652_wbe_transcript.jsonl",
+    "Aarav": "transcripts/Aarav_1731203652_wbe_transcript.jsonl",
+    "Helga": "transcripts/Helga_1731203652_wbe_transcript.jsonl",
+    "Olivia": "transcripts/Olivia_1731203652_wbe_transcript.jsonl",
+    "Julyan": "transcripts/Julyan_1731203652_wbe_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731203652_wbe_game_controller_log.txt"
+}

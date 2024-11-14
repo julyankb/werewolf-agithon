@@ -13,7 +13,7 @@ Path("transcripts").mkdir(parents=True, exist_ok=True)
 
 runner = WerewolfCampaignActivityRunner()
 agent_config = PlayerAgentConfig(
-    player_name="Chagent", # select a name for your agent
+    player_name="Julyan", # select a name for your agent
                 
     #TODO: IMPORTANT!! After building your agent for the first time, you must update this path:
     agent_wheel_path="/Users/julyanbaruch/Workspace/werewolf/werewolf-template/src/werewolf_agents/cot_sample/dist/chagent-0.1.0-py3-none-any.whl", 

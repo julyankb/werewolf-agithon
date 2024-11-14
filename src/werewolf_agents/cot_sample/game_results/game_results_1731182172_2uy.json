@@ -1,0 +1,120 @@
+{
+  "activity_id": "1731182172_2uy",
+  "players": [
+    "Julyan",
+    "Ling",
+    "Aarav",
+    "Akira",
+    "Kiara",
+    "Emma",
+    "Helga",
+    "Michael"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Helga": "wolf",
+    "Aarav": "wolf",
+    "Julyan": "seer",
+    "Emma": "doctor",
+    "Michael": "villager",
+    "Ling": "villager",
+    "Akira": "villager",
+    "Kiara": "villager"
+  },
+  "total_rounds": 3,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Aarav": "Kiara",
+          "Helga": "Emma"
+        },
+        "1": {
+          "Aarav": "Michael",
+          "Helga": "Julyan"
+        },
+        "2": {
+          "Aarav": "Emma"
+        }
+      },
+      "doctors_save": {
+        "0": "Julyan",
+        "1": "Julyan",
+        "2": "Julyan"
+      },
+      "alive_players_votes": {
+        "0": {
+          "Aarav": "Helga",
+          "Emma": "Akira",
+          "Akira": "Emma",
+          "Ling": "Michael",
+          "Michael": "Akira",
+          "Julyan": "Helga",
+          "Helga": "Julyan"
+        },
+        "1": {
+          "Julyan": "Helga",
+          "Aarav": "Julyan",
+          "Helga": "Julyan",
+          "Emma": "Helga",
+          "Ling": "Helga"
+        },
+        "2": {
+          "Aarav": "Ling",
+          "Ling": "Julyan",
+          "Julyan": "Aarav"
+        }
+      }
+    },
+    "total_rounds": 3,
+    "round_wise_alive_players": {
+      "0": [
+        "Julyan",
+        "Ling",
+        "Aarav",
+        "Emma",
+        "Helga",
+        "Michael"
+      ],
+      "1": [
+        "Julyan",
+        "Ling",
+        "Aarav",
+        "Emma"
+      ],
+      "2": [
+        "Julyan",
+        "Ling"
+      ]
+    },
+    "last_standing_players": [
+      "Julyan",
+      "Ling"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Ling": "transcripts/Ling_1731182172_2uy_log.txt",
+    "Aarav": "transcripts/Aarav_1731182172_2uy_log.txt",
+    "Akira": "transcripts/Akira_1731182172_2uy_log.txt",
+    "Kiara": "transcripts/Kiara_1731182172_2uy_log.txt",
+    "Emma": "transcripts/Emma_1731182172_2uy_log.txt",
+    "Helga": "transcripts/Helga_1731182172_2uy_log.txt",
+    "Michael": "transcripts/Michael_1731182172_2uy_log.txt",
+    "Julyan": "transcripts/Julyan_1731182172_2uy_log.txt"
+  },
+  "transcripts": {
+    "Ling": "transcripts/Ling_1731182172_2uy_transcript.jsonl",
+    "Aarav": "transcripts/Aarav_1731182172_2uy_transcript.jsonl",
+    "Akira": "transcripts/Akira_1731182172_2uy_transcript.jsonl",
+    "Kiara": "transcripts/Kiara_1731182172_2uy_transcript.jsonl",
+    "Emma": "transcripts/Emma_1731182172_2uy_transcript.jsonl",
+    "Helga": "transcripts/Helga_1731182172_2uy_transcript.jsonl",
+    "Michael": "transcripts/Michael_1731182172_2uy_transcript.jsonl",
+    "Julyan": "transcripts/Julyan_1731182172_2uy_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731182172_2uy_game_controller_log.txt"
+}

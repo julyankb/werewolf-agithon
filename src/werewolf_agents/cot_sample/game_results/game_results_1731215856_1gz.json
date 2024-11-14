@@ -1,0 +1,57 @@
+{
+  "activity_id": "1731215856_1gz",
+  "players": [
+    "Julyan",
+    "Akira",
+    "Klaus",
+    "Arjun",
+    "Emma",
+    "Ramesh",
+    "Fredrik",
+    "Emily"
+  ],
+  "game_status": "terminated",
+  "player_roles": {
+    "Klaus": "wolf",
+    "Emily": "wolf",
+    "Emma": "seer",
+    "Julyan": "doctor",
+    "Akira": "villager",
+    "Fredrik": "villager",
+    "Arjun": "villager",
+    "Ramesh": "villager"
+  },
+  "total_rounds": 0,
+  "player_errors": {},
+  "success_game_stats": null,
+  "failure_game_stats": {
+    "faulty_players": [
+      "Julyan"
+    ],
+    "termination_code": "BAD_ANSWER",
+    "termination_reason": "Looks like doctor Julyan got some error None ",
+    "traceback": "{\"first_500\": \"Traceback (most recent call last):\\n  File \\\"/app/controller_loader/controller_loader.py\\\", line 697, in main\\n    await controller_runner_task\\n  File \\\"/app/controller_loader/controller_loader.py\\\", line 568, in run_controller\\n    await werewolf_game_machine.run_game()\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/werewolf_controller/controller.py\\\", line 281, in run_game\\n    await self._machine.trigger_event(self,\\\"start\\\")\\n  File \\\"/usr/local/lib/python3.12/site-packages/transitions\", \"last_500\": \"it res\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/werewolf_controller/controller.py\\\", line 245, in on_enter_NIGHT_N5\\n    await self.game_logics.send_doctor_save_message(self.game_model)\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/werewolf_controller/game_logic.py\\\", line 777, in send_doctor_save_message\\n    raise InvalidPlayerResponse(\\nsentient_campaign.werewolf_controller.exceptions.InvalidPlayerResponse: Looks like doctor Julyan got some error None \\n\"}"
+  },
+  "running_game_stats": null,
+  "logs": {
+    "Akira": "transcripts/Akira_1731215856_1gz_log.txt",
+    "Klaus": "transcripts/Klaus_1731215856_1gz_log.txt",
+    "Arjun": "transcripts/Arjun_1731215856_1gz_log.txt",
+    "Emma": "transcripts/Emma_1731215856_1gz_log.txt",
+    "Ramesh": "transcripts/Ramesh_1731215856_1gz_log.txt",
+    "Fredrik": "transcripts/Fredrik_1731215856_1gz_log.txt",
+    "Emily": "transcripts/Emily_1731215856_1gz_log.txt",
+    "Julyan": "transcripts/Julyan_1731215856_1gz_log.txt"
+  },
+  "transcripts": {
+    "Akira": "transcripts/Akira_1731215856_1gz_transcript.jsonl",
+    "Klaus": "transcripts/Klaus_1731215856_1gz_transcript.jsonl",
+    "Arjun": "transcripts/Arjun_1731215856_1gz_transcript.jsonl",
+    "Emma": "transcripts/Emma_1731215856_1gz_transcript.jsonl",
+    "Ramesh": "transcripts/Ramesh_1731215856_1gz_transcript.jsonl",
+    "Fredrik": "transcripts/Fredrik_1731215856_1gz_transcript.jsonl",
+    "Emily": "transcripts/Emily_1731215856_1gz_transcript.jsonl",
+    "Julyan": "transcripts/Julyan_1731215856_1gz_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731215856_1gz_game_controller_log.txt"
+}

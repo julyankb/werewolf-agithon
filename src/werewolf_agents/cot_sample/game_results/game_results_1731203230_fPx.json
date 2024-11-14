@@ -1,0 +1,111 @@
+{
+  "activity_id": "1731203230_fPx",
+  "players": [
+    "Julyan",
+    "Kiara",
+    "Sophie",
+    "Lars",
+    "Yuki",
+    "Ramesh",
+    "vihaan",
+    "Hiroshi"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Ramesh": "wolf",
+    "Kiara": "wolf",
+    "Julyan": "seer",
+    "Hiroshi": "doctor",
+    "Sophie": "villager",
+    "Yuki": "villager",
+    "Lars": "villager",
+    "vihaan": "villager"
+  },
+  "total_rounds": 2,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Kiara": "Julyan",
+          "Ramesh": "Sophie"
+        },
+        "1": {
+          "Ramesh": "Yuki"
+        }
+      },
+      "doctors_save": {
+        "0": "Yuki",
+        "1": "Yuki"
+      },
+      "alive_players_votes": {
+        "0": {
+          "Hiroshi": "Sophie",
+          "Sophie": "Kiara",
+          "Yuki": "Ramesh",
+          "vihaan": "Yuki",
+          "Ramesh": "Yuki",
+          "Lars": "Kiara",
+          "Kiara": "Sophie"
+        },
+        "1": {
+          "vihaan": "Ramesh",
+          "Hiroshi": "Ramesh",
+          "Sophie": "Ramesh",
+          "Ramesh": "Yuki",
+          "Lars": "Ramesh",
+          "Yuki": "Ramesh"
+        }
+      }
+    },
+    "total_rounds": 2,
+    "round_wise_alive_players": {
+      "0": [
+        "Sophie",
+        "Lars",
+        "Yuki",
+        "Ramesh",
+        "vihaan",
+        "Hiroshi"
+      ],
+      "1": [
+        "Sophie",
+        "Lars",
+        "Yuki",
+        "vihaan",
+        "Hiroshi"
+      ]
+    },
+    "last_standing_players": [
+      "Sophie",
+      "Lars",
+      "Yuki",
+      "vihaan",
+      "Hiroshi"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Kiara": "transcripts/Kiara_1731203230_fPx_log.txt",
+    "Sophie": "transcripts/Sophie_1731203230_fPx_log.txt",
+    "Lars": "transcripts/Lars_1731203230_fPx_log.txt",
+    "Yuki": "transcripts/Yuki_1731203230_fPx_log.txt",
+    "Ramesh": "transcripts/Ramesh_1731203230_fPx_log.txt",
+    "vihaan": "transcripts/vihaan_1731203230_fPx_log.txt",
+    "Hiroshi": "transcripts/Hiroshi_1731203230_fPx_log.txt",
+    "Julyan": "transcripts/Julyan_1731203230_fPx_log.txt"
+  },
+  "transcripts": {
+    "Kiara": "transcripts/Kiara_1731203230_fPx_transcript.jsonl",
+    "Sophie": "transcripts/Sophie_1731203230_fPx_transcript.jsonl",
+    "Lars": "transcripts/Lars_1731203230_fPx_transcript.jsonl",
+    "Yuki": "transcripts/Yuki_1731203230_fPx_transcript.jsonl",
+    "Ramesh": "transcripts/Ramesh_1731203230_fPx_transcript.jsonl",
+    "vihaan": "transcripts/vihaan_1731203230_fPx_transcript.jsonl",
+    "Hiroshi": "transcripts/Hiroshi_1731203230_fPx_transcript.jsonl",
+    "Julyan": "transcripts/Julyan_1731203230_fPx_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731203230_fPx_game_controller_log.txt"
+}

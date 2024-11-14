@@ -1,0 +1,57 @@
+{
+  "activity_id": "1731204939_TKz",
+  "players": [
+    "Julyan",
+    "vihaan",
+    "Akira",
+    "Hiroshi",
+    "Jian",
+    "Michael",
+    "Luca",
+    "Lars"
+  ],
+  "game_status": "terminated",
+  "player_roles": {
+    "Lars": "wolf",
+    "Hiroshi": "wolf",
+    "Julyan": "seer",
+    "Akira": "doctor",
+    "Jian": "villager",
+    "Luca": "villager",
+    "Michael": "villager",
+    "vihaan": "villager"
+  },
+  "total_rounds": 0,
+  "player_errors": {},
+  "success_game_stats": null,
+  "failure_game_stats": {
+    "faulty_players": [
+      "Julyan"
+    ],
+    "termination_code": "TIMEOUT_WAIT_FOR_ACK",
+    "termination_reason": "Looks like seer Julyan is down",
+    "traceback": "{\"first_500\": \"Traceback (most recent call last):\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/werewolf_controller/game_logic.py\\\", line 614, in send_seer_guess_message\\n    response_message = await self.game_communication_helper.wait_and_get_action_response_message(\\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/app/controller_loader/proxy_game_communication_helper.py\\\", line 206, in wait_and_get_action_response_message\\n    response\", \"last_500\": \"k\\n    await res\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/werewolf_controller/controller.py\\\", line 240, in on_enter_NIGHT_N4\\n    await self.game_logics.send_seer_guess_message(self.game_model)\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/werewolf_controller/game_logic.py\\\", line 706, in send_seer_guess_message\\n    raise WaitTimeExceededForPlayer(\\nsentient_campaign.werewolf_controller.exceptions.WaitTimeExceededForPlayer: Looks like seer Julyan is down\\n\"}"
+  },
+  "running_game_stats": null,
+  "logs": {
+    "vihaan": "transcripts/vihaan_1731204939_TKz_log.txt",
+    "Akira": "transcripts/Akira_1731204939_TKz_log.txt",
+    "Hiroshi": "transcripts/Hiroshi_1731204939_TKz_log.txt",
+    "Jian": "transcripts/Jian_1731204939_TKz_log.txt",
+    "Michael": "transcripts/Michael_1731204939_TKz_log.txt",
+    "Luca": "transcripts/Luca_1731204939_TKz_log.txt",
+    "Lars": "transcripts/Lars_1731204939_TKz_log.txt",
+    "Julyan": "transcripts/Julyan_1731204939_TKz_log.txt"
+  },
+  "transcripts": {
+    "vihaan": "transcripts/vihaan_1731204939_TKz_transcript.jsonl",
+    "Akira": "transcripts/Akira_1731204939_TKz_transcript.jsonl",
+    "Hiroshi": "transcripts/Hiroshi_1731204939_TKz_transcript.jsonl",
+    "Jian": "transcripts/Jian_1731204939_TKz_transcript.jsonl",
+    "Michael": "transcripts/Michael_1731204939_TKz_transcript.jsonl",
+    "Luca": "transcripts/Luca_1731204939_TKz_transcript.jsonl",
+    "Lars": "transcripts/Lars_1731204939_TKz_transcript.jsonl",
+    "Julyan": "transcripts/Julyan_1731204939_TKz_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731204939_TKz_game_controller_log.txt"
+}

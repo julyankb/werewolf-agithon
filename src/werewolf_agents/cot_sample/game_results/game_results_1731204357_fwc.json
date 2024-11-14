@@ -1,0 +1,109 @@
+{
+  "activity_id": "1731204357_fwc",
+  "players": [
+    "Julyan",
+    "Emma",
+    "Elise",
+    "Helga",
+    "Astrid",
+    "Luca",
+    "Abhimanyu",
+    "Olivia"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Olivia": "wolf",
+    "Helga": "wolf",
+    "Astrid": "seer",
+    "Abhimanyu": "doctor",
+    "Luca": "villager",
+    "Julyan": "villager",
+    "Emma": "villager",
+    "Elise": "villager"
+  },
+  "total_rounds": 2,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "WOLVES",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Helga": "Emma",
+          "Olivia": "Luca"
+        },
+        "1": {
+          "Helga": "Astrid",
+          "Olivia": "Elise"
+        }
+      },
+      "doctors_save": {
+        "0": "Astrid",
+        "1": "Luca"
+      },
+      "alive_players_votes": {
+        "0": {
+          "Elise": "Julyan",
+          "Abhimanyu": "Julyan",
+          "Helga": "Julyan",
+          "Luca": "Julyan",
+          "Julyan": "Elise",
+          "Astrid": "Julyan",
+          "Olivia": "Julyan"
+        },
+        "1": {
+          "Elise": "Abhimanyu",
+          "Abhimanyu": "Elise",
+          "Olivia": "Elise",
+          "Helga": "Elise",
+          "Luca": "Elise"
+        }
+      }
+    },
+    "total_rounds": 2,
+    "round_wise_alive_players": {
+      "0": [
+        "Elise",
+        "Helga",
+        "Astrid",
+        "Luca",
+        "Abhimanyu",
+        "Olivia"
+      ],
+      "1": [
+        "Helga",
+        "Luca",
+        "Abhimanyu",
+        "Olivia"
+      ]
+    },
+    "last_standing_players": [
+      "Helga",
+      "Luca",
+      "Abhimanyu",
+      "Olivia"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Emma": "transcripts/Emma_1731204357_fwc_log.txt",
+    "Elise": "transcripts/Elise_1731204357_fwc_log.txt",
+    "Helga": "transcripts/Helga_1731204357_fwc_log.txt",
+    "Astrid": "transcripts/Astrid_1731204357_fwc_log.txt",
+    "Luca": "transcripts/Luca_1731204357_fwc_log.txt",
+    "Abhimanyu": "transcripts/Abhimanyu_1731204357_fwc_log.txt",
+    "Olivia": "transcripts/Olivia_1731204357_fwc_log.txt",
+    "Julyan": "transcripts/Julyan_1731204357_fwc_log.txt"
+  },
+  "transcripts": {
+    "Emma": "transcripts/Emma_1731204357_fwc_transcript.jsonl",
+    "Elise": "transcripts/Elise_1731204357_fwc_transcript.jsonl",
+    "Helga": "transcripts/Helga_1731204357_fwc_transcript.jsonl",
+    "Astrid": "transcripts/Astrid_1731204357_fwc_transcript.jsonl",
+    "Luca": "transcripts/Luca_1731204357_fwc_transcript.jsonl",
+    "Abhimanyu": "transcripts/Abhimanyu_1731204357_fwc_transcript.jsonl",
+    "Olivia": "transcripts/Olivia_1731204357_fwc_transcript.jsonl",
+    "Julyan": "transcripts/Julyan_1731204357_fwc_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731204357_fwc_game_controller_log.txt"
+}

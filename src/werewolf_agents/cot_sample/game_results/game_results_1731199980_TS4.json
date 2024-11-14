@@ -1,0 +1,108 @@
+{
+  "activity_id": "1731199980_TS4",
+  "players": [
+    "Julyan",
+    "Ananya",
+    "Wei",
+    "Akira",
+    "Sophie",
+    "Chen",
+    "Lars",
+    "Myra"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Lars": "wolf",
+    "Akira": "wolf",
+    "Julyan": "seer",
+    "Chen": "doctor",
+    "Wei": "villager",
+    "Myra": "villager",
+    "Sophie": "villager",
+    "Ananya": "villager"
+  },
+  "total_rounds": 2,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Akira": "Chen",
+          "Lars": "Myra"
+        },
+        "1": {
+          "Akira": "Julyan"
+        }
+      },
+      "doctors_save": {
+        "0": "Lars",
+        "1": null
+      },
+      "alive_players_votes": {
+        "0": {
+          "Lars": "Julyan",
+          "Sophie": "Lars",
+          "Ananya": "Lars",
+          "Myra": "Lars",
+          "Julyan": "Akira",
+          "Wei": "Lars",
+          "Akira": "Myra"
+        },
+        "1": {
+          "Wei": "Akira",
+          "Sophie": "Akira",
+          "Myra": "Akira",
+          "Ananya": "Akira",
+          "Akira": "Myra"
+        }
+      }
+    },
+    "total_rounds": 2,
+    "round_wise_alive_players": {
+      "0": [
+        "Julyan",
+        "Ananya",
+        "Wei",
+        "Akira",
+        "Sophie",
+        "Myra"
+      ],
+      "1": [
+        "Ananya",
+        "Wei",
+        "Sophie",
+        "Myra"
+      ]
+    },
+    "last_standing_players": [
+      "Ananya",
+      "Wei",
+      "Sophie",
+      "Myra"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Ananya": "transcripts/Ananya_1731199980_TS4_log.txt",
+    "Wei": "transcripts/Wei_1731199980_TS4_log.txt",
+    "Akira": "transcripts/Akira_1731199980_TS4_log.txt",
+    "Sophie": "transcripts/Sophie_1731199980_TS4_log.txt",
+    "Chen": "transcripts/Chen_1731199980_TS4_log.txt",
+    "Lars": "transcripts/Lars_1731199980_TS4_log.txt",
+    "Myra": "transcripts/Myra_1731199980_TS4_log.txt",
+    "Julyan": "transcripts/Julyan_1731199980_TS4_log.txt"
+  },
+  "transcripts": {
+    "Ananya": "transcripts/Ananya_1731199980_TS4_transcript.jsonl",
+    "Wei": "transcripts/Wei_1731199980_TS4_transcript.jsonl",
+    "Akira": "transcripts/Akira_1731199980_TS4_transcript.jsonl",
+    "Sophie": "transcripts/Sophie_1731199980_TS4_transcript.jsonl",
+    "Chen": "transcripts/Chen_1731199980_TS4_transcript.jsonl",
+    "Lars": "transcripts/Lars_1731199980_TS4_transcript.jsonl",
+    "Myra": "transcripts/Myra_1731199980_TS4_transcript.jsonl",
+    "Julyan": "transcripts/Julyan_1731199980_TS4_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731199980_TS4_game_controller_log.txt"
+}

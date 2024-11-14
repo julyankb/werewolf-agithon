@@ -1,0 +1,109 @@
+{
+  "activity_id": "1731201342_GSJ",
+  "players": [
+    "Julyan",
+    "Ramesh",
+    "Hiroshi",
+    "Arjun",
+    "Kiara",
+    "Pietro",
+    "Emma",
+    "Klaus"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Emma": "wolf",
+    "Hiroshi": "wolf",
+    "Klaus": "seer",
+    "Kiara": "doctor",
+    "Julyan": "villager",
+    "Arjun": "villager",
+    "Pietro": "villager",
+    "Ramesh": "villager"
+  },
+  "total_rounds": 2,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "WOLVES",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Hiroshi": "Kiara",
+          "Emma": "Kiara"
+        },
+        "1": {
+          "Hiroshi": "Arjun",
+          "Emma": "Arjun"
+        }
+      },
+      "doctors_save": {
+        "0": "Pietro",
+        "1": null
+      },
+      "alive_players_votes": {
+        "0": {
+          "Ramesh": "Pietro",
+          "Pietro": "Ramesh",
+          "Julyan": "Pietro",
+          "Klaus": "Pietro",
+          "Arjun": "Pietro",
+          "Hiroshi": "Pietro",
+          "Emma": "Pietro"
+        },
+        "1": {
+          "Ramesh": "Hiroshi",
+          "Emma": "Klaus",
+          "Hiroshi": "Klaus",
+          "Klaus": "Hiroshi",
+          "Julyan": "Klaus"
+        }
+      }
+    },
+    "total_rounds": 2,
+    "round_wise_alive_players": {
+      "0": [
+        "Julyan",
+        "Ramesh",
+        "Hiroshi",
+        "Arjun",
+        "Emma",
+        "Klaus"
+      ],
+      "1": [
+        "Julyan",
+        "Ramesh",
+        "Hiroshi",
+        "Emma"
+      ]
+    },
+    "last_standing_players": [
+      "Julyan",
+      "Ramesh",
+      "Hiroshi",
+      "Emma"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Ramesh": "transcripts/Ramesh_1731201342_GSJ_log.txt",
+    "Hiroshi": "transcripts/Hiroshi_1731201342_GSJ_log.txt",
+    "Arjun": "transcripts/Arjun_1731201342_GSJ_log.txt",
+    "Kiara": "transcripts/Kiara_1731201342_GSJ_log.txt",
+    "Pietro": "transcripts/Pietro_1731201342_GSJ_log.txt",
+    "Emma": "transcripts/Emma_1731201342_GSJ_log.txt",
+    "Klaus": "transcripts/Klaus_1731201342_GSJ_log.txt",
+    "Julyan": "transcripts/Julyan_1731201342_GSJ_log.txt"
+  },
+  "transcripts": {
+    "Ramesh": "transcripts/Ramesh_1731201342_GSJ_transcript.jsonl",
+    "Hiroshi": "transcripts/Hiroshi_1731201342_GSJ_transcript.jsonl",
+    "Arjun": "transcripts/Arjun_1731201342_GSJ_transcript.jsonl",
+    "Kiara": "transcripts/Kiara_1731201342_GSJ_transcript.jsonl",
+    "Pietro": "transcripts/Pietro_1731201342_GSJ_transcript.jsonl",
+    "Emma": "transcripts/Emma_1731201342_GSJ_transcript.jsonl",
+    "Klaus": "transcripts/Klaus_1731201342_GSJ_transcript.jsonl",
+    "Julyan": "transcripts/Julyan_1731201342_GSJ_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731201342_GSJ_game_controller_log.txt"
+}

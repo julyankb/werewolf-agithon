@@ -1,0 +1,113 @@
+{
+  "activity_id": "1731185144_Gfs",
+  "players": [
+    "Chagent",
+    "Ananya",
+    "Abhimanyu",
+    "Haruto",
+    "Arjun",
+    "Wei",
+    "John",
+    "Pietro"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "John": "wolf",
+    "Abhimanyu": "wolf",
+    "Wei": "seer",
+    "Haruto": "doctor",
+    "Ananya": "villager",
+    "Pietro": "villager",
+    "Chagent": "villager",
+    "Arjun": "villager"
+  },
+  "total_rounds": 2,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Abhimanyu": "Ananya",
+          "John": "Chagent"
+        },
+        "1": {
+          "John": "Ananya"
+        }
+      },
+      "doctors_save": {
+        "0": "Ananya",
+        "1": "Wei"
+      },
+      "alive_players_votes": {
+        "0": {
+          "Arjun": "Abhimanyu",
+          "Abhimanyu": "Haruto",
+          "Haruto": "Abhimanyu",
+          "Pietro": "Abhimanyu",
+          "Wei": "Abhimanyu",
+          "Chagent": "Abhimanyu",
+          "Ananya": "Abhimanyu",
+          "John": "Abhimanyu"
+        },
+        "1": {
+          "Haruto": "John",
+          "Pietro": "John",
+          "John": "Haruto",
+          "Arjun": "John",
+          "Wei": "John",
+          "Chagent": "John"
+        }
+      }
+    },
+    "total_rounds": 2,
+    "round_wise_alive_players": {
+      "0": [
+        "Chagent",
+        "Ananya",
+        "Haruto",
+        "Arjun",
+        "Wei",
+        "John",
+        "Pietro"
+      ],
+      "1": [
+        "Chagent",
+        "Haruto",
+        "Arjun",
+        "Wei",
+        "Pietro"
+      ]
+    },
+    "last_standing_players": [
+      "Chagent",
+      "Haruto",
+      "Arjun",
+      "Wei",
+      "Pietro"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Ananya": "transcripts/Ananya_1731185144_Gfs_log.txt",
+    "Abhimanyu": "transcripts/Abhimanyu_1731185144_Gfs_log.txt",
+    "Haruto": "transcripts/Haruto_1731185144_Gfs_log.txt",
+    "Arjun": "transcripts/Arjun_1731185144_Gfs_log.txt",
+    "Wei": "transcripts/Wei_1731185144_Gfs_log.txt",
+    "John": "transcripts/John_1731185144_Gfs_log.txt",
+    "Pietro": "transcripts/Pietro_1731185144_Gfs_log.txt",
+    "Chagent": "transcripts/Chagent_1731185144_Gfs_log.txt"
+  },
+  "transcripts": {
+    "Ananya": "transcripts/Ananya_1731185144_Gfs_transcript.jsonl",
+    "Abhimanyu": "transcripts/Abhimanyu_1731185144_Gfs_transcript.jsonl",
+    "Haruto": "transcripts/Haruto_1731185144_Gfs_transcript.jsonl",
+    "Arjun": "transcripts/Arjun_1731185144_Gfs_transcript.jsonl",
+    "Wei": "transcripts/Wei_1731185144_Gfs_transcript.jsonl",
+    "John": "transcripts/John_1731185144_Gfs_transcript.jsonl",
+    "Pietro": "transcripts/Pietro_1731185144_Gfs_transcript.jsonl",
+    "Chagent": "transcripts/Chagent_1731185144_Gfs_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731185144_Gfs_game_controller_log.txt"
+}

@@ -1,0 +1,109 @@
+{
+  "activity_id": "1731197249_PLl",
+  "players": [
+    "Julyan",
+    "Michael",
+    "Myra",
+    "Astrid",
+    "Emily",
+    "Yuki",
+    "vihaan",
+    "Ananya"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Myra": "wolf",
+    "Astrid": "wolf",
+    "Michael": "seer",
+    "Yuki": "doctor",
+    "Ananya": "villager",
+    "Julyan": "villager",
+    "Emily": "villager",
+    "vihaan": "villager"
+  },
+  "total_rounds": 2,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "WOLVES",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Myra": "Emily",
+          "Astrid": "Emily"
+        },
+        "1": {
+          "Myra": "Yuki",
+          "Astrid": "Yuki"
+        }
+      },
+      "doctors_save": {
+        "0": "Myra",
+        "1": "Myra"
+      },
+      "alive_players_votes": {
+        "0": {
+          "Michael": "vihaan",
+          "vihaan": "Julyan",
+          "Ananya": "vihaan",
+          "Myra": "Julyan",
+          "Yuki": "Astrid",
+          "Julyan": "vihaan",
+          "Astrid": "Julyan"
+        },
+        "1": {
+          "Julyan": "Astrid",
+          "Myra": "Julyan",
+          "Astrid": "Julyan",
+          "Michael": "Julyan",
+          "Ananya": "Julyan"
+        }
+      }
+    },
+    "total_rounds": 2,
+    "round_wise_alive_players": {
+      "0": [
+        "Julyan",
+        "Michael",
+        "Myra",
+        "Astrid",
+        "Yuki",
+        "Ananya"
+      ],
+      "1": [
+        "Michael",
+        "Myra",
+        "Astrid",
+        "Ananya"
+      ]
+    },
+    "last_standing_players": [
+      "Michael",
+      "Myra",
+      "Astrid",
+      "Ananya"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Michael": "transcripts/Michael_1731197249_PLl_log.txt",
+    "Myra": "transcripts/Myra_1731197249_PLl_log.txt",
+    "Astrid": "transcripts/Astrid_1731197249_PLl_log.txt",
+    "Emily": "transcripts/Emily_1731197249_PLl_log.txt",
+    "Yuki": "transcripts/Yuki_1731197249_PLl_log.txt",
+    "vihaan": "transcripts/vihaan_1731197249_PLl_log.txt",
+    "Ananya": "transcripts/Ananya_1731197249_PLl_log.txt",
+    "Julyan": "transcripts/Julyan_1731197249_PLl_log.txt"
+  },
+  "transcripts": {
+    "Michael": "transcripts/Michael_1731197249_PLl_transcript.jsonl",
+    "Myra": "transcripts/Myra_1731197249_PLl_transcript.jsonl",
+    "Astrid": "transcripts/Astrid_1731197249_PLl_transcript.jsonl",
+    "Emily": "transcripts/Emily_1731197249_PLl_transcript.jsonl",
+    "Yuki": "transcripts/Yuki_1731197249_PLl_transcript.jsonl",
+    "vihaan": "transcripts/vihaan_1731197249_PLl_transcript.jsonl",
+    "Ananya": "transcripts/Ananya_1731197249_PLl_transcript.jsonl",
+    "Julyan": "transcripts/Julyan_1731197249_PLl_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731197249_PLl_game_controller_log.txt"
+}

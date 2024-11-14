@@ -1,0 +1,109 @@
+{
+  "activity_id": "1731212309_ZAE",
+  "players": [
+    "Julyan",
+    "Yuki",
+    "Elise",
+    "Akira",
+    "Abhimanyu",
+    "Lars",
+    "Ling",
+    "Aarav"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Ling": "wolf",
+    "Aarav": "wolf",
+    "Yuki": "seer",
+    "Julyan": "doctor",
+    "Abhimanyu": "villager",
+    "Akira": "villager",
+    "Elise": "villager",
+    "Lars": "villager"
+  },
+  "total_rounds": 2,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "WOLVES",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Ling": "Akira",
+          "Aarav": "Abhimanyu"
+        },
+        "1": {
+          "Ling": "Abhimanyu",
+          "Aarav": "Yuki"
+        }
+      },
+      "doctors_save": {
+        "0": "Julyan",
+        "1": "Ling"
+      },
+      "alive_players_votes": {
+        "0": {
+          "Julyan": "Yuki",
+          "Ling": "Lars",
+          "Yuki": "Lars",
+          "Lars": "Yuki",
+          "Elise": "Lars",
+          "Aarav": "Lars",
+          "Abhimanyu": "Lars"
+        },
+        "1": {
+          "Elise": "Yuki",
+          "Ling": "Yuki",
+          "Aarav": "Yuki",
+          "Julyan": "Yuki",
+          "Yuki": "Ling"
+        }
+      }
+    },
+    "total_rounds": 2,
+    "round_wise_alive_players": {
+      "0": [
+        "Julyan",
+        "Yuki",
+        "Elise",
+        "Abhimanyu",
+        "Ling",
+        "Aarav"
+      ],
+      "1": [
+        "Julyan",
+        "Elise",
+        "Ling",
+        "Aarav"
+      ]
+    },
+    "last_standing_players": [
+      "Julyan",
+      "Elise",
+      "Ling",
+      "Aarav"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Yuki": "transcripts/Yuki_1731212309_ZAE_log.txt",
+    "Elise": "transcripts/Elise_1731212309_ZAE_log.txt",
+    "Akira": "transcripts/Akira_1731212309_ZAE_log.txt",
+    "Abhimanyu": "transcripts/Abhimanyu_1731212309_ZAE_log.txt",
+    "Lars": "transcripts/Lars_1731212309_ZAE_log.txt",
+    "Ling": "transcripts/Ling_1731212309_ZAE_log.txt",
+    "Aarav": "transcripts/Aarav_1731212309_ZAE_log.txt",
+    "Julyan": "transcripts/Julyan_1731212309_ZAE_log.txt"
+  },
+  "transcripts": {
+    "Yuki": "transcripts/Yuki_1731212309_ZAE_transcript.jsonl",
+    "Elise": "transcripts/Elise_1731212309_ZAE_transcript.jsonl",
+    "Akira": "transcripts/Akira_1731212309_ZAE_transcript.jsonl",
+    "Abhimanyu": "transcripts/Abhimanyu_1731212309_ZAE_transcript.jsonl",
+    "Lars": "transcripts/Lars_1731212309_ZAE_transcript.jsonl",
+    "Ling": "transcripts/Ling_1731212309_ZAE_transcript.jsonl",
+    "Aarav": "transcripts/Aarav_1731212309_ZAE_transcript.jsonl",
+    "Julyan": "transcripts/Julyan_1731212309_ZAE_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731212309_ZAE_game_controller_log.txt"
+}

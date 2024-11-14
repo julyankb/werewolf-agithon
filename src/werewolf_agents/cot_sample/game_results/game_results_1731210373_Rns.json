@@ -1,0 +1,111 @@
+{
+  "activity_id": "1731210373_Rns",
+  "players": [
+    "Julyan",
+    "Haruto",
+    "John",
+    "Sophie",
+    "Aarav",
+    "Emma",
+    "Olivia",
+    "Helga"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Julyan": "wolf",
+    "Emma": "wolf",
+    "Helga": "seer",
+    "Sophie": "doctor",
+    "Olivia": "villager",
+    "Haruto": "villager",
+    "Aarav": "villager",
+    "John": "villager"
+  },
+  "total_rounds": 2,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Julyan": "Haruto",
+          "Emma": "Aarav"
+        },
+        "1": {
+          "Emma": "Helga"
+        }
+      },
+      "doctors_save": {
+        "0": "Emma",
+        "1": "Helga"
+      },
+      "alive_players_votes": {
+        "0": {
+          "Emma": "John",
+          "John": "Julyan",
+          "Helga": "Julyan",
+          "Julyan": "Helga",
+          "Aarav": "John",
+          "Olivia": "Julyan",
+          "Sophie": "Julyan"
+        },
+        "1": {
+          "Sophie": "Emma",
+          "Emma": "Sophie",
+          "Aarav": "Emma",
+          "Helga": "Emma",
+          "John": "Emma",
+          "Olivia": "Emma"
+        }
+      }
+    },
+    "total_rounds": 2,
+    "round_wise_alive_players": {
+      "0": [
+        "John",
+        "Sophie",
+        "Aarav",
+        "Emma",
+        "Olivia",
+        "Helga"
+      ],
+      "1": [
+        "John",
+        "Sophie",
+        "Aarav",
+        "Olivia",
+        "Helga"
+      ]
+    },
+    "last_standing_players": [
+      "John",
+      "Sophie",
+      "Aarav",
+      "Olivia",
+      "Helga"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Haruto": "transcripts/Haruto_1731210373_Rns_log.txt",
+    "John": "transcripts/John_1731210373_Rns_log.txt",
+    "Sophie": "transcripts/Sophie_1731210373_Rns_log.txt",
+    "Aarav": "transcripts/Aarav_1731210373_Rns_log.txt",
+    "Emma": "transcripts/Emma_1731210373_Rns_log.txt",
+    "Olivia": "transcripts/Olivia_1731210373_Rns_log.txt",
+    "Helga": "transcripts/Helga_1731210373_Rns_log.txt",
+    "Julyan": "transcripts/Julyan_1731210373_Rns_log.txt"
+  },
+  "transcripts": {
+    "Haruto": "transcripts/Haruto_1731210373_Rns_transcript.jsonl",
+    "John": "transcripts/John_1731210373_Rns_transcript.jsonl",
+    "Sophie": "transcripts/Sophie_1731210373_Rns_transcript.jsonl",
+    "Aarav": "transcripts/Aarav_1731210373_Rns_transcript.jsonl",
+    "Emma": "transcripts/Emma_1731210373_Rns_transcript.jsonl",
+    "Olivia": "transcripts/Olivia_1731210373_Rns_transcript.jsonl",
+    "Helga": "transcripts/Helga_1731210373_Rns_transcript.jsonl",
+    "Julyan": "transcripts/Julyan_1731210373_Rns_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731210373_Rns_game_controller_log.txt"
+}

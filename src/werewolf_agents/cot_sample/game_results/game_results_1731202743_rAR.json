@@ -1,0 +1,124 @@
+{
+  "activity_id": "1731202743_rAR",
+  "players": [
+    "Julyan",
+    "Fredrik",
+    "Olivia",
+    "Kiara",
+    "Yuki",
+    "John",
+    "Aarav",
+    "Ling"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Julyan": "wolf",
+    "Yuki": "wolf",
+    "Kiara": "seer",
+    "John": "doctor",
+    "Olivia": "villager",
+    "Aarav": "villager",
+    "Ling": "villager",
+    "Fredrik": "villager"
+  },
+  "total_rounds": 3,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Julyan": "Fredrik",
+          "Yuki": "Olivia"
+        },
+        "1": {
+          "Yuki": "Aarav"
+        },
+        "2": {
+          "Yuki": "Olivia"
+        }
+      },
+      "doctors_save": {
+        "0": "Olivia",
+        "1": "Aarav",
+        "2": null
+      },
+      "alive_players_votes": {
+        "0": {
+          "Aarav": "Julyan",
+          "Kiara": "Julyan",
+          "John": "Julyan",
+          "Yuki": "Julyan",
+          "Julyan": "Kiara",
+          "Olivia": "Julyan",
+          "Ling": "Julyan"
+        },
+        "1": {
+          "Olivia": "John",
+          "John": "Yuki",
+          "Yuki": "Aarav",
+          "Ling": "Aarav",
+          "Aarav": "John",
+          "Kiara": "John"
+        },
+        "2": {
+          "Aarav": "Yuki",
+          "Ling": "Yuki",
+          "Yuki": "Kiara",
+          "Kiara": "Yuki"
+        }
+      }
+    },
+    "total_rounds": 3,
+    "round_wise_alive_players": {
+      "0": [
+        "Olivia",
+        "Kiara",
+        "Yuki",
+        "John",
+        "Aarav",
+        "Ling"
+      ],
+      "1": [
+        "Olivia",
+        "Kiara",
+        "Yuki",
+        "Aarav",
+        "Ling"
+      ],
+      "2": [
+        "Kiara",
+        "Aarav",
+        "Ling"
+      ]
+    },
+    "last_standing_players": [
+      "Kiara",
+      "Aarav",
+      "Ling"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Fredrik": "transcripts/Fredrik_1731202743_rAR_log.txt",
+    "Olivia": "transcripts/Olivia_1731202743_rAR_log.txt",
+    "Kiara": "transcripts/Kiara_1731202743_rAR_log.txt",
+    "Yuki": "transcripts/Yuki_1731202743_rAR_log.txt",
+    "John": "transcripts/John_1731202743_rAR_log.txt",
+    "Aarav": "transcripts/Aarav_1731202743_rAR_log.txt",
+    "Ling": "transcripts/Ling_1731202743_rAR_log.txt",
+    "Julyan": "transcripts/Julyan_1731202743_rAR_log.txt"
+  },
+  "transcripts": {
+    "Fredrik": "transcripts/Fredrik_1731202743_rAR_transcript.jsonl",
+    "Olivia": "transcripts/Olivia_1731202743_rAR_transcript.jsonl",
+    "Kiara": "transcripts/Kiara_1731202743_rAR_transcript.jsonl",
+    "Yuki": "transcripts/Yuki_1731202743_rAR_transcript.jsonl",
+    "John": "transcripts/John_1731202743_rAR_transcript.jsonl",
+    "Aarav": "transcripts/Aarav_1731202743_rAR_transcript.jsonl",
+    "Ling": "transcripts/Ling_1731202743_rAR_transcript.jsonl",
+    "Julyan": "transcripts/Julyan_1731202743_rAR_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731202743_rAR_game_controller_log.txt"
+}

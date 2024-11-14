@@ -1,0 +1,119 @@
+{
+  "activity_id": "1731187167_eVh",
+  "players": [
+    "Julyan",
+    "Pietro",
+    "Ingrid",
+    "Lars",
+    "Jian",
+    "Ramesh",
+    "Emma",
+    "Helga"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Pietro": "wolf",
+    "Lars": "wolf",
+    "Ramesh": "seer",
+    "Emma": "doctor",
+    "Jian": "villager",
+    "Helga": "villager",
+    "Julyan": "villager",
+    "Ingrid": "villager"
+  },
+  "total_rounds": 3,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "VILLAGERS",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Pietro": "Julyan",
+          "Lars": "Ingrid"
+        },
+        "1": {
+          "Pietro": "Emma"
+        },
+        "2": {
+          "Pietro": "Helga"
+        }
+      },
+      "doctors_save": {
+        "0": "Ingrid",
+        "1": "Ingrid",
+        "2": null
+      },
+      "alive_players_votes": {
+        "0": {
+          "Pietro": "Lars",
+          "Lars": "Ramesh",
+          "Helga": "Lars",
+          "Jian": "Lars",
+          "Ramesh": "Pietro",
+          "Ingrid": "Lars",
+          "Emma": "Lars"
+        },
+        "1": {
+          "Jian": "Ramesh",
+          "Helga": "Ramesh",
+          "Pietro": "Ramesh",
+          "Ingrid": "Ramesh",
+          "Ramesh": "Pietro"
+        },
+        "2": {
+          "Jian": "Pietro",
+          "Pietro": "Jian",
+          "Ingrid": "Pietro"
+        }
+      }
+    },
+    "total_rounds": 3,
+    "round_wise_alive_players": {
+      "0": [
+        "Pietro",
+        "Ingrid",
+        "Jian",
+        "Ramesh",
+        "Emma",
+        "Helga"
+      ],
+      "1": [
+        "Pietro",
+        "Ingrid",
+        "Jian",
+        "Helga"
+      ],
+      "2": [
+        "Ingrid",
+        "Jian"
+      ]
+    },
+    "last_standing_players": [
+      "Ingrid",
+      "Jian"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Pietro": "transcripts/Pietro_1731187167_eVh_log.txt",
+    "Ingrid": "transcripts/Ingrid_1731187167_eVh_log.txt",
+    "Lars": "transcripts/Lars_1731187167_eVh_log.txt",
+    "Jian": "transcripts/Jian_1731187167_eVh_log.txt",
+    "Ramesh": "transcripts/Ramesh_1731187167_eVh_log.txt",
+    "Emma": "transcripts/Emma_1731187167_eVh_log.txt",
+    "Helga": "transcripts/Helga_1731187167_eVh_log.txt",
+    "Julyan": "transcripts/Julyan_1731187167_eVh_log.txt"
+  },
+  "transcripts": {
+    "Pietro": "transcripts/Pietro_1731187167_eVh_transcript.jsonl",
+    "Ingrid": "transcripts/Ingrid_1731187167_eVh_transcript.jsonl",
+    "Lars": "transcripts/Lars_1731187167_eVh_transcript.jsonl",
+    "Jian": "transcripts/Jian_1731187167_eVh_transcript.jsonl",
+    "Ramesh": "transcripts/Ramesh_1731187167_eVh_transcript.jsonl",
+    "Emma": "transcripts/Emma_1731187167_eVh_transcript.jsonl",
+    "Helga": "transcripts/Helga_1731187167_eVh_transcript.jsonl",
+    "Julyan": "transcripts/Julyan_1731187167_eVh_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731187167_eVh_game_controller_log.txt"
+}

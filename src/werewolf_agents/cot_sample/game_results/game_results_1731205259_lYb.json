@@ -1,0 +1,57 @@
+{
+  "activity_id": "1731205259_lYb",
+  "players": [
+    "Julyan",
+    "Anna",
+    "Jian",
+    "Akira",
+    "Abhimanyu",
+    "Wei",
+    "Klaus",
+    "Chen"
+  ],
+  "game_status": "terminated",
+  "player_roles": {
+    "Klaus": "wolf",
+    "Anna": "wolf",
+    "Abhimanyu": "seer",
+    "Julyan": "doctor",
+    "Wei": "villager",
+    "Akira": "villager",
+    "Jian": "villager",
+    "Chen": "villager"
+  },
+  "total_rounds": 0,
+  "player_errors": {},
+  "success_game_stats": null,
+  "failure_game_stats": {
+    "faulty_players": [
+      "Anna"
+    ],
+    "termination_code": "TIMEOUT_WAIT_FOR_ACK",
+    "termination_reason": "Looks like wolf Anna is down",
+    "traceback": "{\"first_500\": \"Traceback (most recent call last):\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/werewolf_controller/game_logic.py\\\", line 484, in send_wolf_voting_message\\n    response_message = await self.game_communication_helper.wait_and_get_action_response_message(\\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/app/controller_loader/proxy_game_communication_helper.py\\\", line 206, in wait_and_get_action_response_message\\n    respons\", \"last_500\": \"k\\n    await res\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/werewolf_controller/controller.py\\\", line 235, in on_enter_NIGHT_N3\\n    await self.game_logics.send_wolf_voting_message(self.game_model)\\n  File \\\"/usr/local/lib/python3.12/site-packages/sentient_campaign/werewolf_controller/game_logic.py\\\", line 541, in send_wolf_voting_message\\n    raise WaitTimeExceededForPlayer(\\nsentient_campaign.werewolf_controller.exceptions.WaitTimeExceededForPlayer: Looks like wolf Anna is down\\n\"}"
+  },
+  "running_game_stats": null,
+  "logs": {
+    "Anna": "transcripts/Anna_1731205259_lYb_log.txt",
+    "Jian": "transcripts/Jian_1731205259_lYb_log.txt",
+    "Akira": "transcripts/Akira_1731205259_lYb_log.txt",
+    "Abhimanyu": "transcripts/Abhimanyu_1731205259_lYb_log.txt",
+    "Wei": "transcripts/Wei_1731205259_lYb_log.txt",
+    "Klaus": "transcripts/Klaus_1731205259_lYb_log.txt",
+    "Chen": "transcripts/Chen_1731205259_lYb_log.txt",
+    "Julyan": "transcripts/Julyan_1731205259_lYb_log.txt"
+  },
+  "transcripts": {
+    "Anna": "transcripts/Anna_1731205259_lYb_transcript.jsonl",
+    "Jian": "transcripts/Jian_1731205259_lYb_transcript.jsonl",
+    "Akira": "transcripts/Akira_1731205259_lYb_transcript.jsonl",
+    "Abhimanyu": "transcripts/Abhimanyu_1731205259_lYb_transcript.jsonl",
+    "Wei": "transcripts/Wei_1731205259_lYb_transcript.jsonl",
+    "Klaus": "transcripts/Klaus_1731205259_lYb_transcript.jsonl",
+    "Chen": "transcripts/Chen_1731205259_lYb_transcript.jsonl",
+    "Julyan": "transcripts/Julyan_1731205259_lYb_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731205259_lYb_game_controller_log.txt"
+}

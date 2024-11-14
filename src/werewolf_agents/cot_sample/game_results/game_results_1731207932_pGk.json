@@ -1,0 +1,109 @@
+{
+  "activity_id": "1731207932_pGk",
+  "players": [
+    "Julyan",
+    "Ling",
+    "Akira",
+    "Ingrid",
+    "Pietro",
+    "Myra",
+    "Olivia",
+    "Emma"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Olivia": "wolf",
+    "Pietro": "wolf",
+    "Akira": "seer",
+    "Myra": "doctor",
+    "Julyan": "villager",
+    "Emma": "villager",
+    "Ling": "villager",
+    "Ingrid": "villager"
+  },
+  "total_rounds": 2,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "WOLVES",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Pietro": "Ingrid",
+          "Olivia": "Ingrid"
+        },
+        "1": {
+          "Pietro": "Myra",
+          "Olivia": "Myra"
+        }
+      },
+      "doctors_save": {
+        "0": "Julyan",
+        "1": "Julyan"
+      },
+      "alive_players_votes": {
+        "0": {
+          "Ling": "Akira",
+          "Myra": "Emma",
+          "Julyan": "Pietro",
+          "Emma": "Myra",
+          "Olivia": "Emma",
+          "Pietro": "Olivia",
+          "Akira": "Emma"
+        },
+        "1": {
+          "Akira": "Julyan",
+          "Ling": "Olivia",
+          "Olivia": "Julyan",
+          "Pietro": "Julyan",
+          "Julyan": "Olivia"
+        }
+      }
+    },
+    "total_rounds": 2,
+    "round_wise_alive_players": {
+      "0": [
+        "Julyan",
+        "Ling",
+        "Akira",
+        "Pietro",
+        "Myra",
+        "Olivia"
+      ],
+      "1": [
+        "Ling",
+        "Akira",
+        "Pietro",
+        "Olivia"
+      ]
+    },
+    "last_standing_players": [
+      "Ling",
+      "Akira",
+      "Pietro",
+      "Olivia"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Ling": "transcripts/Ling_1731207932_pGk_log.txt",
+    "Akira": "transcripts/Akira_1731207932_pGk_log.txt",
+    "Ingrid": "transcripts/Ingrid_1731207932_pGk_log.txt",
+    "Pietro": "transcripts/Pietro_1731207932_pGk_log.txt",
+    "Myra": "transcripts/Myra_1731207932_pGk_log.txt",
+    "Olivia": "transcripts/Olivia_1731207932_pGk_log.txt",
+    "Emma": "transcripts/Emma_1731207932_pGk_log.txt",
+    "Julyan": "transcripts/Julyan_1731207932_pGk_log.txt"
+  },
+  "transcripts": {
+    "Ling": "transcripts/Ling_1731207932_pGk_transcript.jsonl",
+    "Akira": "transcripts/Akira_1731207932_pGk_transcript.jsonl",
+    "Ingrid": "transcripts/Ingrid_1731207932_pGk_transcript.jsonl",
+    "Pietro": "transcripts/Pietro_1731207932_pGk_transcript.jsonl",
+    "Myra": "transcripts/Myra_1731207932_pGk_transcript.jsonl",
+    "Olivia": "transcripts/Olivia_1731207932_pGk_transcript.jsonl",
+    "Emma": "transcripts/Emma_1731207932_pGk_transcript.jsonl",
+    "Julyan": "transcripts/Julyan_1731207932_pGk_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731207932_pGk_game_controller_log.txt"
+}

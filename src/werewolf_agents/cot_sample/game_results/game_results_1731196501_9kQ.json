@@ -1,0 +1,127 @@
+{
+  "activity_id": "1731196501_9kQ",
+  "players": [
+    "Julyan",
+    "Akira",
+    "Klaus",
+    "Ramesh",
+    "Aarav",
+    "Ananya",
+    "Fredrik",
+    "Emma"
+  ],
+  "game_status": "ended",
+  "player_roles": {
+    "Fredrik": "wolf",
+    "Emma": "wolf",
+    "Ananya": "seer",
+    "Akira": "doctor",
+    "Aarav": "villager",
+    "Klaus": "villager",
+    "Julyan": "villager",
+    "Ramesh": "villager"
+  },
+  "total_rounds": 3,
+  "player_errors": {},
+  "success_game_stats": {
+    "winner": "WOLVES",
+    "vote_history": {
+      "wolf_votes": {
+        "0": {
+          "Fredrik": "Klaus",
+          "Emma": "Akira"
+        },
+        "1": {
+          "Emma": "Ananya"
+        },
+        "2": {
+          "Emma": "Ananya"
+        },
+        "3": {
+          "Emma": "Ramesh"
+        }
+      },
+      "doctors_save": {
+        "0": "Ananya",
+        "1": "Ananya",
+        "2": null,
+        "3": null
+      },
+      "alive_players_votes": {
+        "0": {
+          "Julyan": "Fredrik",
+          "Ananya": "Fredrik",
+          "Akira": "Fredrik",
+          "Aarav": "Fredrik",
+          "Ramesh": "Fredrik",
+          "Fredrik": "Ananya",
+          "Emma": "Fredrik"
+        },
+        "1": {
+          "Akira": "Julyan",
+          "Ananya": "Akira",
+          "Aarav": "Akira",
+          "Julyan": "Akira",
+          "Emma": "Akira",
+          "Ramesh": "Akira"
+        },
+        "2": {
+          "Aarav": "Emma",
+          "Emma": "Julyan",
+          "Julyan": "Ramesh",
+          "Ramesh": "Julyan"
+        }
+      }
+    },
+    "total_rounds": 3,
+    "round_wise_alive_players": {
+      "0": [
+        "Julyan",
+        "Akira",
+        "Ramesh",
+        "Aarav",
+        "Ananya",
+        "Emma"
+      ],
+      "1": [
+        "Julyan",
+        "Ramesh",
+        "Aarav",
+        "Ananya",
+        "Emma"
+      ],
+      "2": [
+        "Ramesh",
+        "Aarav",
+        "Emma"
+      ]
+    },
+    "last_standing_players": [
+      "Aarav",
+      "Emma"
+    ]
+  },
+  "failure_game_stats": null,
+  "running_game_stats": null,
+  "logs": {
+    "Akira": "transcripts/Akira_1731196501_9kQ_log.txt",
+    "Klaus": "transcripts/Klaus_1731196501_9kQ_log.txt",
+    "Ramesh": "transcripts/Ramesh_1731196501_9kQ_log.txt",
+    "Aarav": "transcripts/Aarav_1731196501_9kQ_log.txt",
+    "Ananya": "transcripts/Ananya_1731196501_9kQ_log.txt",
+    "Fredrik": "transcripts/Fredrik_1731196501_9kQ_log.txt",
+    "Emma": "transcripts/Emma_1731196501_9kQ_log.txt",
+    "Julyan": "transcripts/Julyan_1731196501_9kQ_log.txt"
+  },
+  "transcripts": {
+    "Akira": "transcripts/Akira_1731196501_9kQ_transcript.jsonl",
+    "Klaus": "transcripts/Klaus_1731196501_9kQ_transcript.jsonl",
+    "Ramesh": "transcripts/Ramesh_1731196501_9kQ_transcript.jsonl",
+    "Aarav": "transcripts/Aarav_1731196501_9kQ_transcript.jsonl",
+    "Ananya": "transcripts/Ananya_1731196501_9kQ_transcript.jsonl",
+    "Fredrik": "transcripts/Fredrik_1731196501_9kQ_transcript.jsonl",
+    "Emma": "transcripts/Emma_1731196501_9kQ_transcript.jsonl",
+    "Julyan": "transcripts/Julyan_1731196501_9kQ_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731196501_9kQ_game_controller_log.txt"
+}

@@ -1,0 +1,44 @@
+{
+  "activity_id": "1731216083_yKY",
+  "players": [
+    "Jian",
+    "Yuki",
+    "Anna",
+    "Arjun",
+    "vihaan",
+    "Astrid",
+    "Hiroshi",
+    "Julyan"
+  ],
+  "game_status": "terminated",
+  "player_errors": {},
+  "failure_game_stats": {
+    "faulty_players": [
+      "Yuki"
+    ],
+    "termination_code": "AGENT_FAILURE",
+    "termination_reason": "player agent Yuki exited",
+    "traceback": "\"    result = self.fn(*self.args, **self.kwargs)\\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/autogen/agentchat/conversable_agent.py\\\", line 1482, in _generate_oai_reply\\n    return self.generate_oai_reply(*args, **kwargs)\\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/autogen/agentchat/conversable_agent.py\\\", line 1424, in generate_oai_reply\\n    extracted_response = self._generate_oai_reply_from_client(\\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/autogen/agentchat/conversable_agent.py\\\", line 1443, in _generate_oai_reply_from_client\\n    response = llm_client.create(\\n               ^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/autogen/oai/client.py\\\", line 831, in create\\n    response = client.create(params)\\n               ^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/autogen/oai/client.py\\\", line 400, in create\\n    response = completions.create(**params)\\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py\\\", line 274, in wrapper\\n    return func(*args, **kwargs)\\n           ^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions.py\\\", line 815, in create\\n    return self._post(\\n           ^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/openai/_base_client.py\\\", line 1277, in post\\n    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))\\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/openai/_base_client.py\\\", line 954, in request\\n    return self._request(\\n           ^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/site-packages/openai/_base_client.py\\\", line 1014, in _request\\n    return self._retry_request(\\n          \""
+  },
+  "logs": {
+    "Jian": "transcripts/Jian_1731216083_yKY_log.txt",
+    "Yuki": "transcripts/Yuki_1731216083_yKY_log.txt",
+    "Anna": "transcripts/Anna_1731216083_yKY_log.txt",
+    "Arjun": "transcripts/Arjun_1731216083_yKY_log.txt",
+    "vihaan": "transcripts/vihaan_1731216083_yKY_log.txt",
+    "Astrid": "transcripts/Astrid_1731216083_yKY_log.txt",
+    "Hiroshi": "transcripts/Hiroshi_1731216083_yKY_log.txt",
+    "Julyan": "transcripts/Julyan_1731216083_yKY_log.txt"
+  },
+  "transcripts": {
+    "Jian": "transcripts/Jian_1731216083_yKY_transcript.jsonl",
+    "Yuki": "transcripts/Yuki_1731216083_yKY_transcript.jsonl",
+    "Anna": "transcripts/Anna_1731216083_yKY_transcript.jsonl",
+    "Arjun": "transcripts/Arjun_1731216083_yKY_transcript.jsonl",
+    "vihaan": "transcripts/vihaan_1731216083_yKY_transcript.jsonl",
+    "Astrid": "transcripts/Astrid_1731216083_yKY_transcript.jsonl",
+    "Hiroshi": "transcripts/Hiroshi_1731216083_yKY_transcript.jsonl",
+    "Julyan": "transcripts/Julyan_1731216083_yKY_transcript.jsonl"
+  },
+  "controller_log": "transcripts/1731216083_yKY_game_controller_log.txt"
+}
